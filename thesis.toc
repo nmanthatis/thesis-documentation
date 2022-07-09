@@ -1,0 +1,33 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {greek}{}
+\contentsline {chapter}{\numberline {1}Εισαγωγή}{1}%
+\contentsline {subsection}{\numberline {}Διατύπωση Προβλήματος και Στόχοι}{2}%
+\contentsline {subsection}{\numberline {}Βιβλιογραφική Ανασκόπηση}{2}%
+\contentsline {chapter}{\numberline {2}Μοντελοποίηση Τρικόπτερου}{4}%
+\contentsline {section}{\numberline {2.1}Εισαγωγή}{4}%
+\contentsline {section}{\numberline {2.2}Κινηματική}{4}%
+\contentsline {subsection}{\numberline {}Γωνίες \textlatin {Euler}}{4}%
+\contentsline {subsection}{\numberline {}Μητρώα Περιστροφής}{7}%
+\contentsline {section}{\numberline {2.3}Κινητική}{8}%
+\contentsline {section}{\numberline {2.4}Απεικόνιση Μεταβλητών Ελέγχου - Δυνάμεων}{10}%
+\contentsline {section}{\numberline {2.5}Αφινική Δομή Συστήματος}{12}%
+\contentsline {section}{\numberline {2.6}Μοντελοποίηση Φορτίων Ελίκων}{13}%
+\contentsline {subsubsection}{Χαρακτηρισμός Φορτίου Έλικας}{16}%
+\contentsline {section}{\numberline {2.7}Μοντελοποίηση Κινητήρων}{18}%
+\contentsline {chapter}{\numberline {3}Πειραματική Διάταξη}{20}%
+\contentsline {section}{\numberline {3.1}Σχεδιασμός}{20}%
+\contentsline {section}{\numberline {3.2}Ανάλυση ζεύγους Κινητήρων - Ελίκων}{23}%
+\contentsline {chapter}{\numberline {4}Σχεδιασμός Ελεγκτή}{27}%
+\contentsline {section}{\numberline {4.1}Μαθηματικό Υπόβαθρο}{27}%
+\contentsline {section}{\numberline {4.2}Μη-Γραμμικός Ελεγκτής}{30}%
+\contentsline {subsection}{\numberline {}Στάθμιση Ελεγκτή}{32}%
+\contentsline {subsection}{\numberline {}Αποτελέσματα}{33}%
+\contentsline {section}{\numberline {4.3}Εισαγωγή Διαταραχών}{36}%
+\contentsline {subsection}{\numberline {}Μόνιμες Διαταραχές}{36}%
+\contentsline {subsection}{\numberline {}Διαταραχές στην Έλικα}{36}%
+\contentsline {section}{\numberline {4.4}Εξασθένιση Διαταραχών}{37}%
+\contentsline {subsection}{\numberline {}Σύνθεση Ελεγκτή}{42}%
+\contentsline {chapter}{\numberline {5}Αποτελέσματα Προσομοιώσεων}{44}%
+\contentsline {chapter}{\numberline {6}Συμπεράσματα \& Μελλοντικές Προεκτάσεις}{49}%
+\contentsline {chapter}{Βιβλιογραφία}{49}%
+\babel@toc {english}{}

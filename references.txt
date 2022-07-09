@@ -1,0 +1,16 @@
+@article{APC_data,
+author = {Brandt, John and Selig, Michael},
+year = {2011},
+month = {01},
+pages = {},
+title = {Propeller Performance Data at Low Reynolds Numbers},
+doi = {10.2514/6.2011-1255}
+}
+@Book{natsiavas,
+ author = {\foreignlanguage{greek}{Νατσίαβας, Σ.}},
+ title = {\foreignlanguage{greek}{Εφαρμοσμένη δυναμική : θεωρία , εφαρμογές}},
+ publisher = {\foreignlanguage{greek}{Ζήτη}},
+ year = {1994},
+ address = {\foreignlanguage{greek}{Θεσσαλονίκη}},
+ isbn = {9789604312566}
+ }

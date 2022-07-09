@@ -1,0 +1,517 @@
+\section{Απόρριψη Διαταραχών}
+
+\noindent Στο σύστημα (\ref{ctl:knt})-(\ref{ctl:knm}) προστίθεται η απεικόνιση
+$\overline{w} \in \class 1(\realf\times\euclr n\times V,\realf)$, η οποία 
+αντιπροσωπεύει το σύνολο των διαταραχών που επιδρούν σε αυτό. Προκύπτει το 
+σύστημα
+\begin{gather}
+    \dot{x} = f_{0}(x, y) + \sum_{i}^{m}{d_{i}f_{i}}(x,y) + \overline{w}(t,x,y)
+    \label{ctl:knt_} \\
+    \dot{y} = A(y)x
+    \label{ctl:knm_}   
+\end{gather}
+
+Επίσης, στον όρο της δράσης ελέγχου (\ref{ctl:ctl}) προστίθεται μία ακόμη δράση,
+$\widehat{v}: \realf\times\euclr n\times V \rightarrow \euclr n$. Επιπλέον,
+έστω $\phi:[t_0,t_1)\rightarrow \euclr n \times V$ ολοκληρωτική καμπύλη του
+διανυσματικού πεδίου κλειστού βρόχου που διέρχεται από το $\left(t_0,(x_0,y_0)
+\right)$. Θέτουμε $y_{r0} = y_r(t_0),\quad v_0 = \dot{y}_r(t_0),\quad \phi_1 = 
+\pi_1 \circ \phi$ και $\phi_2 = \pi_2 \circ \phi$. Για αυτές τις καμπύλες $\phi$
+ισχύει
+
+\begin{gather}
+    \dot{\left(\phi_1 - A(\phi_2)^{-1}\left(K_1(\phi_2 - y_r) +\dot{y}_r\right)
+    \right)} + K_2\left(\phi_1 - A(\phi_2)^{-1}\left(K_1(\phi_2 - y_r) + 
+    \dot{y}_r\right)\right) + \widehat{v} + \overline{w}
+    \label{ctl:dphi1}\\
+    \dot{\phi_2} = A(\phi_2)\phi_1
+    \label{ctl:dphi2}
+\end{gather}
+
+Από την πρώτη έπεται ότι
+
+\begin{equation}
+    \begin{split}
+        \left(\phi_1 - A(\phi_2)^{-1}\left(K_1(\phi_2 - y_r) +\dot{y}_r\right)
+        \right) =& e^{(t-t_0)K_2} \left(x_0 - A(y_0)^{-1}\left(K_1(y_0 - y_{r0})
+         + v_0\right)\right) +\\&\int_{t_0}^{t}{e^{(t-s)K_2}\,\widehat{v}(s)} ds
+         + \int_{t_0}^{t}{e^{(t-s)K_2}\,\overline{w}(s)} ds
+    \end{split}
+    \label{ctl:phi1}
+\end{equation}
+
+Οι πρώτοι όροι στο δεξί μέλος είναι η ολοκληρωτική καμπύλη $\phi_3$ του
+\begin{equation*}
+    (t,x) \mapsto K_2x+\widehat{v}
+\end{equation*}
+η οποία διέρχεται από το $\left(t_0,\quad x_0 - A(y_0)^{-1}\left(K_1 (y_0 - 
+y_{r0})+v_0\right)\right)$
+
+Αντικαθιστώντας την (\ref{ctl:phi1}) στην (\ref{ctl:dphi2}) προκύπτει
+\begin{equation}
+    \dot{(\phi_2 - y_r)} = K_1 (\phi_2 - y_r) + A(\phi_2) \phi_3 + 
+    A(\phi_2)\int_{t_0}^{t}{e^{(t-s)K_2}\,\overline{w}(s)} ds    
+\end{equation}
+
+Καταλήγουμε ότι $t \mapsto (\phi_2(t) - y_r(t),\quad \phi_3(t))$ είναι η 
+ολοκληρωτική καμπύλη του διανυσματικού πεδίου
+\begin{equation*}
+    \left(t, (y,z)\right) \mapsto \left(K_1y + A(y + y_r)z + A(y + y_r)
+    \int_{t_0}^{t}{e^{(t-s)K_2}\,\overline{w}(s)} ds,\quad K_2z + 
+    \widehat{v}\right)
+\end{equation*}
+που διέρχεται από το $\left(t_0,\left(y_0 - y_{r0},\quad x_0 - A(y_0)^{-1}\left(
+K_1(y_0 - y_{r0}) + v_0\right)\right)\right)$.
+
+Η αιώρηση του τρικοπτέρου πραγματοποιείται για ένα εύρος τιμών ύψους και γωνίας 
+$\psi$, διατηρώντας τις γωνίες $\phi$ και $\theta$ σε μηδενικές τιμές. Θέτουμε 
+$g:V \times \euclr n \rightarrow \euclr n$ με $g(y, z) = A(y)z$ με στόχο την 
+γραμμικοποίηση. Επιλέγεται το σημείο $(0, 0)$ το οποίο βρίσκεται εντός των χώρων
+$V, \euclr n$ και η γύρω περιοχή είναι καλά ορισμένη. Ισχύει ότι
+\begin{equation*}
+    g^{\prime}(y, z)(h_1, h_2) = A(y) h_2 + (A^{\prime}(y)h_1)z
+\end{equation*}
+Άρα,
+\begin{equation*}
+    g(y, z) = g(0, 0) + g^{\prime}(0, 0)(h_1, h_2) + \smallo((h_1, h_2)) = 
+    A(0)h_2
+\end{equation*}
+
+Πλέον το διανυσματικό πεδίο γράφεται
+\begin{equation*}
+    \left(t, (y,z)\right) \mapsto \left(K_1y + A(0)z + w,\quad K_2z + 
+    \widehat{v}\right)
+\end{equation*}
+και καταλήγουμε σε μητρωική μορφή
+\begin{equation}
+    \dot{x_1} = A_1 x_1 + Ew + B_1 u_1
+    \label{ctl:linsys}
+\end{equation}
+με 
+\begin{equation*}
+    A_1 =
+    \begin{pmatrix}
+        K_1 & A(0) \\
+        0 & K_2
+    \end{pmatrix} \qquad
+    B_1 = 
+    \begin{pmatrix}
+        0 \\
+        I
+    \end{pmatrix} \qquad
+    E = 
+    \begin{pmatrix}
+        I \\
+        0
+    \end{pmatrix}
+\end{equation*}
+και $x_1 = \left(\phi_2 - y_r, \, \phi_3\right)^{\intercal}, \, w = 
+A(0)\int_{t_0}^{t}{e^{(t-s)K_2}\,\overline{w}(s)} ds$ και $u_1 = \widehat{v}$
+
+Διαθέτοντας πλέον γραμμική έκφραση του συστήματος, στοχεύουμε στην εξασθένιση 
+των διαταραχών του. Είναι σημαντικό να βρεθεί τρόπος ποσοτικοποίησης της δράσης
+των διαταραχών επί του συστήματος.  
+
+\begin{nameddefn}{Ορισμοί}
+    Μια σειρά ($x_n,n = 1,2,3,\ldots$) ονομάζεται \textbf{σειρά \tl{Cauchy}} αν 
+    για $\epsilon > 0$, υπάρχει $N$ τέτοιο ώστε 
+    \begin{equation*}
+        \norm{x_n - x_m} < \epsilon\quad \forall \, n,m \geq N.
+    \end{equation*}
+    % Δηλαδή, μια σειρά λέγεται σειρά \tl{Cauchy}  αν τα στοιχεία της σειράς 
+    % έρχονται όλο και πιο κοντά όσο κινούμαστε προς το τέλος της σειράς.
+\end{nameddefn}
+\begin{nameddefn}{Ορισμοί}
+    Ένας γραμμικός χώρος με νόρμα στον οποίο οι σειρές \tl{Cauchy} συγκλίνουν 
+    σε ένα σημείο ονομάζεται \textbf{χώρος \tl{Banach}}. Παραδείγματα χώρων 
+    \tl{Banach} είναι οι γραμμικοί χώροι με νόρμα πεπερασμένης διάστασης 
+     $\realf^n$.
+\end{nameddefn}
+
+\begin{nameddefn}{Συμβολισμοί}
+    Έστω $X$ χώρος \tl{Banach}, τότε αν $a, b \in \realf$ με $a <b$, 
+    συμβολίζουμε με $\class{} \left([a,b],X\right)$ το σύνολο των συνεχών απεικονίσεων
+    του $[a, b]$ στο $X$.
+    
+    Επίσης, συμβολίζουμε με $L^2\left([a, \infty),X\right)$ το σύνολο των 
+    συνεχών απεικονίσεων $f:[\alpha,\infty)\rightarrow X$ για τις οποίες ισχύει
+\begin{equation*}
+    \int_{a}^{\infty} ||f(t)||^2 dt = \lim_{b\rightarrow \infty}\int_{a}^{b} 
+    ||f(t)||^2 dt < \infty
+\end{equation*}
+Με όμοιο τρόπο ορίζεται και το σύνολο $L^2\left((-\infty,a]\right)$.
+\end{nameddefn}
+
+(α) Κάθε χώρος $L^2([0, \infty), X)$ είναι γραμμικός χώρος. Πράγματι, αν $f, g \in 
+L^2([0, \infty], X)$, τότε η $f + g$ είναι συνεχής και επειδή $2\gamma\delta \leq
+\gamma^2 + \delta^2$ για κάθε $\gamma, \delta \in \realf$ έχουμε ότι
+\begin{equation*}
+    \int_{a}^{t} \norm{f + g}^2 \leq \int_{a}^{t} \left( \norm{f}^2 + 2\norm{f}
+    \norm{g} + \norm{g}^2 \right) \leq 2 \int_{a}^{t} \norm{f}^2 + 2 
+    \int_{a}^{t} \norm{g}^2 \leq 2 \int_{a}^{\infty} \norm{f}^2 + 2 
+    \int_{a}^{\infty} \norm{g}^2
+\end{equation*}
+για $t\in\realf$ με $a < t$
+
+Παίρνοντας το όριο καθώς $t \rightarrow \infty$ προκύπτει ότι
+\begin{equation*}
+    \int_{a}^{\infty} \norm{f+g}^2 \leq 2 \int_{a}^{\infty} \norm{f}^2 + 2 
+    \int_{a}^{\infty} \norm{g}^2
+\end{equation*}
+και άρα $f+g\in L^2([a, \infty], X)$.
+
+Προφανώς αν $c\in \realf$, τότε $cf\in L^2([0, \infty], X)$. Επομένως, ο 
+$L^2([0, \infty], X)$, με τις κατά σημείο πράξεις της πρόσθεσης και του βαθμωτού 
+πολλαπλασιασμού, είναι γραμμικός χώρος.
+
+(β) Η απεικόνιση
+\begin{equation*}
+    \norm{\cdot}:L^2([0, \infty], X) \rightarrow [0, +\infty) \text{ με } 
+    \norm{f} = \left(\int_{a}^{\infty} \norm{f(t)}^2 dt\right)^{1/2} 
+\end{equation*} 
+είναι νόρμα στο $L^2([a, \infty), X)$. Προφανώς $\norm{af} = |a|\norm{f}$ για 
+κάθε $a \in \realf$. Επίσης, από το γεγονός ότι αν $g:[c, d] \rightarrow 
+[0, \infty)$ είναι μία ολοκληρώσιμη συνάρτηση, η οποία είναι συνεχής σε ένα 
+σημείο $x \in[c, d]$ με $g(x) > 0$, τότε $\int_{c}^{d} g >0$. Η $\norm{\cdot} 
+\circ f$ είναι συνεχής συνάρτηση ως σύνθεση συνεχών συναρτήσεων και έτσι 
+ολοκληρώσιμη. Έπεται άμεσα ότι $\norm{f} = 0$, αν και μόνο αν $f = 0$.
+
+Απομένει να δείξουμε την τριγωνική ιδιότητα. Πρώτα θα αποδειχτεί ότι
+\begin{equation*}
+    \int_{a}^{\infty} \norm{f(t)} \norm{g(t)} dt \leq \norm{f} \norm{g} 
+    \text{ για } f, g \in L^2([a, \infty], X)
+\end{equation*}
+
+Χωρίς βλάβη της γενικότητας, αρκεί να δείξουμε ότι η παραπάνω ανισότητα ισχύει 
+για $f, g \in L^2([a, \infty), X)$ με $\norm{f} = \norm{g} = 1$. Για $t\in\realf$
+με $a < t$, έχουμε ότι
+\begin{equation*}
+    \begin{split}
+        \int_{a}^{t} \norm{f(s)} \norm{g(s)} ds \leq \frac{1}{2} \left(
+        \int_{a}^{t} \norm{f(s)}^2 ds + \int_{a}^{t}\norm{g(s)}^2 ds \right) \\
+        \leq \frac{1}{2} \left(\int_{a}^{\infty} \norm{f(s)}^2 ds + 
+        \int_{a}^{\infty}\norm{g(s)}^2 ds \right) = 1 = \norm{f} \norm{g}    
+    \end{split}
+\end{equation*}
+Το αποτέλεσμα προκύπτει παίρνοντας το όριο καθώς $t \rightarrow \infty$
+
+Τέλος, για $f, g \in L^2([a, \infty), X)$ με $f + g \neq 0$, ισχύει
+\begin{equation*}
+    \begin{split}
+        \norm{f + g}^2 = \int_{0}^{\infty} \norm{f(t) + g(t)}^2 dt = 
+        \int_{0}^{\infty} \norm{f(t) + g(t)}\norm{f(t) + g(t)} dt \\ 
+        \leq \int_{0}^{\infty} \norm{f(t)}\norm{f(t) + g(t)} dt + 
+        \int_{0}^{\infty} \norm{g(t)}\norm{f(t) + g(t)} dt 
+    \end{split} 
+\end{equation*}
+το οποίο προκύπτει από την τριγωνική ιδιότητα της νόρμας $\norm{\cdot} :X
+\rightarrow [0,\infty)$.
+Επομένως
+\begin{equation*}
+        \norm{f + g}^2 \leq \norm{f}\norm{f+g} + \norm{g}\norm{f+g} 
+\end{equation*}
+Διαιρώντας με $\norm{f+g}$ καταλήγουμε ότι 
+\begin{equation*}
+    \norm{f+g} \leq \norm{f} + \norm{g}    
+\end{equation*}
+Πράγματι, αποτελεί νόρμα εφόσον διαθέτει τις τρεις ιδιότητες μίας νόρμας.
+
+(γ) Αν ο $\left(X,\langle\cdot,\cdot\rangle\right)$ είναι χώρος \tl{Hilbert} 
+(δηλαδή, ο $X$ είναι χώρος με εσωτερικό γινόμενο, ο οποίος είναι χώρος 
+\tl{Banach} με τη νόρμα που επάγεται από το $\langle\cdot,\cdot\rangle$), τότε η
+απεικόνιση
+\begin{equation*}
+    \langle\cdot,\cdot\rangle : L_2\left([a,\infty),X\right)^2 \rightarrow 
+    \realf\quad\text{με}\quad \langle f, g \rangle = \int_o^{\infty}\langle f(t)
+    ,g(t) \rangle
+\end{equation*}
+είναι εσωτερικό γινόμενο στο $L^2([a,\infty,X):$ Από την ανισότητα \tl{Cauchy-
+Schwarz} και την πρώτη ανισότητα που αποδείχθηκε στο (β), προκύπτει ότι
+\begin{equation*}
+    \int_a^{\infty}\langle f(t),g(t) \rangle \leq \int_a^{\infty} ||f(t)||\,
+    ||g(t)|| \leq ||f(t)||\,||g(t)|| < \infty.    
+\end{equation*}
+H θετικότητα της $\langle\cdot,\cdot\rangle$ έχει αποδειχθεί στο (β). Οι 
+υπόλοιπες ιδιότητες (διγραμμικότητα, συμμετρία) είναι προφανείς.
+
+Σχόλια: οι χώροι $L^2\left([a,\infty),X\right)$ δεν είναι εν γένει χώρος 
+\tl{Banach} (δηλαδή δεν είναι απαραίτητα πλήρης). Πολλά προβλήματα στη θεωρία 
+ελέγχου γραμμικών συστημάτων, βασίζονται στην επίλυση γραμμικών τετραγωνικών 
+προβλημάτων βέλτιστου ελέγχου. Τα προβλήματα αυτά μπορούν να διατυπωθούν ως 
+προβλήματα ελαχίστης νόρμας, τα οποία μπορούν να αντιμετωπιστούν αποτελεσματικά
+με το θεώρημα προβολής σε χώρους \tl{Hilbert}.
+
+\begin{namedthrm}{Θεώρημα \tl{Lyapunov}}
+    Έστω $X$ γραμμικός χώρος πεπερασμένης διάστασης με εσωτερικό γινόμενο και 
+    $A \in \mathcal{L}(X)$. Τότε όλες οι ιδιοτιμές του $A$ (στο 
+    $\mathbb{C})$ έχουν αρνητικό πραγματικό μέρος, αν και μόνο αν για κάθε $B 
+    \in \mathcal{L}(X)$ υπάρχει μοναδική λύση $\Lambda$ της εξίσωσης
+    $A^{*} \circ \Lambda + \Lambda \circ A = B$ και αν $B < 0$, τότε $ \Lambda 
+    > 0$.
+
+    Επιπλέον, ισχύει ότι $\Lambda= -\int_{0}^{\infty} e^{t A^{*}} \circ 
+    B \circ 
+    e^{t A}$.
+\end{namedthrm}
+\begin{proof}
+    Βλ. [] []
+\end{proof}
+Υποθέτουμε ότι $A \in \mathcal{L}(\euclr n)$ και όλες οι ιδιοτιμές του $A$ (στο
+$\mathbb{C}$) έχουν αρνητικό πραγματικό μέρος. Επιπλέον υποθέτουμε ότι $w \in 
+L^2([0, \infty), \euclr n)$. Θεωρούμε ένα γραμμικό σύστημα 
+\begin{equation}
+    \dot{x} = Ax + Bw \quad \text{με} \quad x(0) = z, \quad y = Cx + Dw.
+    \label{ctl:lin}    
+\end{equation}
+Λύση της διαφορικής εξίσωσης είναι η
+\[x(t) = e^{tA}z + \int_{0}^t e^{(t - s)A} B w(s) ds\]
+Έτσι για την έξοδο του συστήματος ισχύει 
+\begin{equation}
+    y(t) = Ce^{tA}z + C\int_{0}^t e^{(t - s)A} B w(s) ds + Dw(t)
+    \label{ctl:out}    
+\end{equation} 
+
+Εφόσον όλες οι ιδιοτιμές της $A$ βρίσκονται στο αριστερό ημιεπίπεδο, σύμφωνα με 
+το θεώρημα \tl{Lyapunov} υπάρχει μοναδική $\Lambda >0$ με $\Lambda = \Lambda ^*$
+, ώστε 
+\begin{equation}
+    A^{*} \circ \Lambda + \Lambda \circ A = -I.
+    \label{lyap}
+\end{equation}
+Θέτουμε $g(t) = \int_{0}^t e^{(t - s)A} B w(s) ds$ με $\dot{g} = Ag +Bw$ και
+$\alpha(t) = \langle
+\Lambda g(t),g(t)\rangle$. Τότε η $\alpha$ είναι διαφορίσιμη ως διγραμμική 
+διαφορίσιμων συναρτήσεων και ισχύει ότι
+\begin{align*}
+    \dot{\alpha} &= \langle\Lambda \dot g,g\rangle + \langle\Lambda g,\dot g
+    \rangle = \langle \Lambda \left(A g + Bw\right),g \rangle + \langle 
+    \Lambda g,A g + Bw\rangle \\
+    & = \langle \Lambda A g,g \rangle + \langle \Lambda Bw,g \rangle
+          + \langle \Lambda g,A g \rangle + \langle \Lambda g, Bw\rangle\\
+    & = \langle \Lambda A g,g \rangle + \langle A ^*\Lambda g,g \rangle
+    + \langle w, B^* \Lambda^*g\rangle + \langle B*\Lambda g,w \rangle\\
+    & = \langle \left(A^* \Lambda + \Lambda A\right) g, g\rangle 
+    + 2\langle B^* \Lambda g,w\rangle\\
+% \end{align*}
+\text{Από τη σχέση } (\ref{lyap})&\text{ και επιλέγοντας τυχαία σταθερά \tl{c} η 
+εξίσωση παίρνει τη μορφή}\\
+% \begin{align*}
+\dot{\alpha}& = -\norm g ^2 + c^2\langle w, w\rangle + 2\langle B^* \Lambda g,w
+    \rangle    - c^2\langle w, w\rangle\\
+    & = -\norm g ^2 + c^2\langle w, w\rangle -c^2\langle w - 
+    c^{-2}B^* \Lambda g,w -c^{-2} B^* \Lambda g\rangle  
+    +c^{-2}\langle B^* \Lambda g,B^* \Lambda g\rangle\\
+    & = -\norm g ^2 + c^2\norm{w}^2 -c^2\norm{w - c^{-2}B^* \Lambda g}^2  
+    +c^{-2} \norm{B^* \Lambda g}^2\\
+\text{Αφαιρώντας τον }&\text{αρνητικό όρο προκύπτει η ανισότητα}\\
+    \dot{\alpha} & \le   (c^{-2}\norm{B^*}^2 \norm{\Lambda}^2  -1) \norm g ^2+ 
+    c^2 \norm w ^2 \\
+\text{Ολοκληρώνοντας } & \text{την ανισότητα,}\\
+    a(t) - a(0) &\le \int_{0}^{t} \left((c^{-2}\norm{B^*}^2 \norm{\Lambda}^2  -1) 
+    \norm g ^2+ c^2 \norm w ^2 \right) \\
+\text{Το } a(0) = 0, \text{ αφού}&\text{ } g(0) = 0. \text{ Επιπλέον, επειδή η } 
+\Lambda > 0, \text{ και η } a(t) \geq 0. \text{ Άρα,} \\
+    0 &\le (c^{-2}\norm{B^*}^2 \norm{\Lambda}^2  -1) \int_{0}^{t} \norm g ^2
+    + c^2 \int_{0}^{t} \norm w ^2 \\
+    (1& - c^{-2}\norm{B^*}^2 \norm{\Lambda}^2) \int_{0}^{t} \norm g ^2 \le c^2 
+    \int_{0}^{t} \norm w ^2 < \infty \\
+    % (1 -& c^{-2}\norm{B^*}^2 \norm{\Lambda}^2) \int_{0}^{t} \norm g ^2 \le c^2
+    %  \lim_{t\rightarrow\infty}\int_{0}^{t} \norm 
+    % w ^2 < \infty \\ 
+    % &(1 - c^{-2}\norm{B^*}^2 \norm{\Lambda}^2)\int_{0}^{t} \norm{g}^2 \le c^2
+    %  \norm{w}^2
+\end{align*} 
+Επιλέγοντας αρκούντως μεγάλο $c$ ώστε $(1 - c^{-2}\norm{B^*}^2\norm{\Lambda}^2)
+ >0$, υπάρχει $\gamma>0$ τέτοιο ώστε 
+ \[\norm g^2 = \int_0^\infty \norm g^2 \le \gamma^2 \int_0^\infty \norm{w}^2 = 
+ \gamma^2 \norm{w}^2 \]
+
+Η παραπάνω ανισότητα ισχύει, εφόσον η $w \in L^2$.
+%  Για να είναι φραγμένο και το 
+% όριο στο αριστερό μέλος, πρέπει ο σταθερός συντελεστής $(1 - c^{-2}\norm{B^*}^2
+% \norm{\Lambda}^2)$ να είναι θετικός. Έτσι το όριο είναι φραγμένο και η $g \in 
+% L^2\left([0, \infty), \euclr n\right)$, αν επιλέξουμε αρκετά μεγάλη σταθερά $c$.
+Στην διαδικασία που προηγήθηκε, είναι σημαντικό να τονισθεί, ότι η επιλογή της 
+$c$ δεν γίνεται βάσει υποθέσεων για τις $w$, αλλά εξαρτάται μόνο από ενδογενή 
+χαρακτηριστικά του συστήματος. 
+
+Στην μόνιμη κατάσταση, η έξοδος του συστήματος επηρεάζεται μόνο από τους όρους 
+που εμπεριέχουν τις διαταραχές. Αυτό συμβαίνει, διότι ο πρώτος όρος της 
+(\ref{ctl:out}) εξασθενεί στην μόνιμη κατάσταση λόγω αρνητικών ιδιοτιμών του 
+$A$. 
+
+Ορίζεται η απεικόνιση $T \in L^2([0, \infty), \euclr n)$ με $w \mapsto C g + 
+D w = y$, εφόσον αποτελεί πρόσθεση συνθέσεων απεικονίσεων που ανήκουν στον 
+$L^2$. Έτσι η έξοδος του συστήματος έχει φραγμένη νόρμα σε σχέση με το μέγεθος
+των διαταραχών. Η $T$ είναι αφινική ως προς το $w$. 
+
+Από την τριγωνική ανισότητα της νόρμας στo $L^2$ ισχύει
+\[\norm{T w} \le \norm C \norm g + \norm D + \norm w \le \left(\norm C 
+\gamma + \norm D\right)\norm w\]
+άρα η απεικόνιση $T$ είναι γραμμική και συνεχής από το $L^2 \rightarrow L^2$.
+
+\begin{namedthrm}{\tl{Bounded Real Lemma}}
+    Έστω $A$ πίνακας με αρνητικές ιδιοτιμές και $\gamma > 0$. Τότε οι ακόλουθες 
+    εκφράσεις είναι ισοδύναμες.
+    \begin{itemize}
+        \item $\norm{y} < \gamma \norm{w}$ όπου $y$ η έξοδος του γραμμικού 
+        συστήματος (\ref{ctl:lin}) και $w$ είσοδος με αρχικές συνθήκες 
+        $x(0) = 0$
+        \item υπάρχει λύση $K = K^{\ast}$ στην γραμμική ανισότητα πινάκων
+        \begin{equation}
+            \begin{pmatrix}
+                A^{\intercal} K + KA & KB & C^{\intercal} \\
+                B^{\intercal}K & -\gamma I & D^{\intercal} \\
+                C & D & -\gamma I
+            \end{pmatrix}
+            < 0
+        \end{equation}     
+    \end{itemize}
+    \label{lemma}
+\end{namedthrm}
+\begin{proof}
+    Βλ. [\tl{Scherer Weiland}]
+\end{proof}
+
+
+Για την επίτευξη ενός συστήματος της μορφής (\ref{ctl:lin}), εισάγεται ένας 
+δυναμικός γραμμικός ελεγκτής στο σύστημα του τρικοπτέρου (\ref{ctl:linsys}). Το 
+διάγραμμα βαθμίδων φαίνεται στο σχήμα \ref{fig:blk_dgm}.
+\begin{figure}[H]
+    \begin{center}
+        \begin{tikzpicture}[arr/.style={-latex,thin}, line/.style={thick},
+        nonterminal/.style={rectangle, minimum size=12mm, thick, 
+        draw=black, top color=white, bottom color=white}, >= triangle 90, 
+        font = \large]
+        
+        \matrix[row sep=8mm,column sep=5mm] {
+        \node (one) [nonterminal] {$\begin{matrix} 
+            \dot{x}_1 =  A_1x_1 +Ew +B_1u_1\\
+            z = Hx_1 +Fw + Gu_1\\
+            y_1 = C_1x_1 + D_1w
+            \end{matrix}$}; \\
+        \node (two) [nonterminal] {$\begin{matrix} 
+            \dot{x}_2 =  A_2x_2+B_2u_2\\
+            y_2 = C_2x_2 + D_2w
+            \end{matrix}$}; & \\};
+
+        \draw [-latex] (one.-10)  -| ++ (1,0)   node[pos=1, right, yshift = -29]
+         {$y_1$} -- ++ (0,-1.8) -- (two.0);
+        \draw [-latex] (two.180)   -- ++ (-1.5,-0) node[pos=1, left, yshift = 
+        26] {$y_2$}  |- (one.190);
+        \draw [-latex] (one.10) -- ++ (1.1,0) node[pos=0.4, above, yshift = 3] 
+        {$z$};    
+        \draw [-latex] ++ (-3.65,1.433)  --(one.170) node[pos=0.55, above, 
+        yshift = 3] {$w$} ;    
+        \end{tikzpicture}
+    \end{center} 
+    \caption{Διάγραμμα Βαθμίδων}
+    \label{fig:blk_dgm} 
+\end{figure}
+
+Οι διαστάσεις του συστήματος είναι οι εξής
+\begin{alignat*}{6}
+    A_1 &\in \euclr{n\times n} \quad E &&\in \euclr{n\times k} \quad B_1 &&&\in 
+    \euclr{n\times m}\\
+    H &\in \euclr{p\times n} \quad F &&\in \euclr{p\times k} \quad G &&&\in 
+    \euclr{p\times m}\\
+    C_1 &\in \euclr{q\times n} \quad D_1 &&\in \euclr{q\times k} &&&\\
+    &\text{και}\\
+    A_2 &\in \euclr{r\times r} \,\,\quad B_2 &&\in \euclr{r \times q}\\
+    C_2 &\in \euclr{m\times r} \quad D_2 &&\in \euclr{m \times q}
+\end{alignat*}
+% και
+% \begin{alignat*}{6}
+%     A_1 &\in \euclr{n\times n} \quad E &&\in \euclr{n\times k} \quad B_1 &&&\in 
+%     \euclr{n\times m}\\
+%     H &\in \euclr{p\times n} \quad F &&\in \euclr{p\times k} \quad G &&&\in 
+%     \euclr{p\times m}\\
+%     C_1 &\in \euclr{q\times n} \quad D_2 &&\in \euclr{m\times q} 
+% \end{alignat*}
+Το σύστημα μπορεί να γραφεί ως
+\begin{equation*}
+    \begin{pmatrix}
+        \dot{x}_1\\
+        \midrule
+        z\\
+        y
+    \end{pmatrix}4
+    =
+    \begin{pmatrix}
+        \begin{array}{@{}c|c@{}}
+            \begin{matrix}
+               a & b & c & d \\
+               e & f & g & h \\
+               i & j & k & l 
+            \end{matrix} 
+        & B \\
+   \cmidrule[0.4pt]{1-2}
+   C & D \\
+\end{array} 
+\end{pmatrix}
+\end{equation*}
+Επιδιώκεται, τώρα, ο σχηματισμός του γραμμικού συστήματος κλειστού βρόγχου. Για
+$y_2 = u_1$ και $y_1 = u_2$ προκύπτει
+
+\begin{align*}
+    &
+    \begin{cases}
+        \dot{x_1} = A_1 x_1 + E w + B_1 C_2 x_2 + B_1 D_2 u_2\\
+        \dot{x_2} = A_2 x_2 + B_2 C_1 x_1 + B_2 D_1 w 
+    \end{cases}\Rightarrow\\
+% \end{equation*}
+% \begin{equation*}
+    &
+    \begin{cases}
+        \dot{x_1} = A_1 x_1 + E w + B_1 C_2 x_2 + B_1 D_2 C_1 x_1 + B_1 D_2 D_1 w\\
+        \dot{x_2} = A_2 x_2 + B_2 C_1 x_1 + B_2 D_1 w
+    \end{cases}    
+\end{align*}
+το οποίο γράφεται σε μητρωική μορφή ως
+\begin{equation*}
+    \begin{pmatrix}
+        \dot{x_1} \\
+        \dot{x_2}
+    \end{pmatrix}=
+    \begin{pmatrix}
+        A_1 + B_1 D_2 C_1 & B_1 C_2 \\
+        B_2 C_1 & A_2 
+    \end{pmatrix}
+    \begin{pmatrix}
+        x_1 \\
+        x_2
+    \end{pmatrix}
+    +
+    \begin{pmatrix}
+        E + B_1 D_2 D_1 \\
+        B_2 D_1
+    \end{pmatrix} w
+\end{equation*}
+
+Για την έξοδο του συστήματος έχουμε
+\begin{align*}
+    z =& H x_1 + Fw + G u_1 = H x_1 + Fw + G C_2 x_2 + G D_2 u_2 \Rightarrow \\
+    z =& H x_1 + Fw + G C_2 x_2 + G D_2 C_1 x_1 + G D_2 D_1 w 
+\end{align*}
+το οποίο γράφεται σε μητρωική μορφή
+\begin{equation*}
+    z =
+    \begin{pmatrix}
+        H+G D_2 C_1 & G C_2 \\
+    \end{pmatrix}
+    \begin{pmatrix}
+        x_1 \\
+        x_2
+    \end{pmatrix}
+    +
+    \begin{pmatrix}
+        F + G D_2 D_1 \\
+    \end{pmatrix} w
+\end{equation*}
+Καταλήγουμε στην τελική μορφή του συστήματος κλειστού βρόγχου
+\begin{align*}
+    \dot{x} =& Ax + Bw \\
+    z =& Cx + Dw.
+\end{align*}
+
+

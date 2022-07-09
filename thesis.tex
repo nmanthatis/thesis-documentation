@@ -1,0 +1,35 @@
+\documentclass[
+    a4paper, twoside, leqno, 11pt
+    ]{report}
+
+\input{preamble.tex}
+\input{macros.tex}
+
+% \usepackage{bookmark}
+
+\begin{document}
+
+% \input{Symbols/main}
+\input{Title_Page/main.tex}
+\pagenumbering{roman}
+\input{Abstract/main}
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+% \pdfbookmark[section]{Περιεχόμενα}{toc}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\input{Intro/main}
+\input{Dynamics/main}
+\input{Propeller/main}
+\input{Motor/main}
+\input{Skoupa/main}
+\input{Control/main}
+\input{Results/main}
+\input{Conclusion/main}  
+
+\addcontentsline{toc}{chapter}{Βιβλιογραφία}
+\nocite{*}
+\selectlanguage{english}
+\printbibliography[title=\greektext{Βιβλιογραφία}]
+\end{document}

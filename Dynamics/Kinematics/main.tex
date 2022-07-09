@@ -1,0 +1,513 @@
+\section{Κινηματική}
+\noindentΗ κίνηση του τρικοπτέρου ορίζεται πλήρως από το διάνυσμα θέσης του 
+κέντρου μάζας του και από τον προσανατολισμό του ως προς κάποιο σύστημα 
+αναφοράς. Στην παρούσα διπλωματική εργασία, η παραμέτρηση του προσανατολισμού 
+έγινε με γωνίες \tl{Euler}.
+
+\textbf{Αδρανειακό Σύστημα Αναφοράς Εδάφους} \(E : OXYZ\) \qquad Το σύστημα 
+αναφοράς \(E\) βρίσκεται σταθερά δεμένο στην επιφάνεια της Γης και θεωρείται 
+αδρανειακό. Το επίπεδο \(XY\) συμπίπτει με το έδαφος και ο άξονας \(Z\) έχει την
+ίδια κατεύθυνση με το διάνυσμα του βάρους.
+
+\textbf{Κεντροβαρικό Σύστημα Αναφοράς} \(B : Gxyz\) \qquad Το σύστημα αναφοράς 
+\(B\) είναι σταθερά δεμένο στο κέντρο μάζας \(G\) του στερεού σώματος,  
+μεταφέρεται και περιστρέφεται μαζί με αυτό. Οι διευθύνσεις των διανυσμάτων βάσης
+του συστήματος αυτού, συμπίπτουν με τους άξονες ευαισθησίας των μετρητικών 
+οργάνων. Επομένως, κάθε μέτρηση είναι εκφρασμένη σε αυτήν την βάση.
+
+\subsection{Γωνίες \tl{Euler}}
+
+\noindentΣε αντίθεση με την γραμμική μετατόπιση, η συνολική περιστροφική 
+μετατόπιση ενός στερεού σώματος δεν μπορεί να προέλθει με απλή ολοκλήρωση του 
+διανύσματος γωνιακής ταχύτητας ως προς ένα σύστημα αναφοράς \cite{natsiavas}. 
+Για τον προσδιορισμό λοιπόν του προσανατολισμού ενός στερεού σώματος γίνεται 
+χρήση των γωνιών \tl{Euler}. 
+
+Για τον ορισμό των γωνιών \tl{Euler}, θεωρείται το σύστημα αναφοράς \(f(Oxyz)\), 
+το οποίο είναι σταθερά δεμένο στο στερεό σώμα και περιστρέφεται μαζί με αυτό
+ως προς την αρχή των αξόνων \(O\), και το σύστημα \(F(OXYZ)\), το οποίο 
+παραμένει ακίνητο. Ο προσανατολισμός του συστήματος αναφοράς \(f\) (και άρα του 
+στερεού σώματος) ως προς το σύστημα \(F\) μπορεί να επιτευχθεί με τρεις 
+διαδοχικές γωνιακές μετατοπίσεις, με περιορισμό ότι δύο διαδοχικές περιστροφές 
+δεν μπορούν να πραγματοποιηθούν γύρω από ίδιο ή παράλληλο άξονα. Η αλληλουχία 
+των περιστροφών, που επιλέχθηκε, φαίνεται στα σχήματα (\ref{fig:rot_z}),
+(\ref{fig:rot_y}), (\ref{fig:rot_x}). 
+\begin{itemize}
+    \item Περιστροφή του συστήματος αναφοράς \(f\) κατά γωνία εκτροπής \(\psi\) 
+    (\tl{yaw angle}) γύρω από το σταθερό άξονα \(OZ (F \to f^\prime) \). Με μπλέ
+    χρώμα απεικονίζεται το επίπεδο περιστροφής.
+
+    \begin{figure}[h]%\kern-1.5ex
+        \tikzset{cross/.style={
+            cross out, draw=black, minimum size=2*(#1-\pgflinewidth),
+            inner sep=0pt, outer sep=0pt}, cross/.default={1pt}}
+        \centering
+        \tdplotsetmaincoords{70}{170}
+        \begin{tikzpicture}[scale = 2.5, tdplot_main_coords]
+            % first plane
+            \draw[thin] (1, 0, 0) -- (1, 1, 0) -- (-1, 1, 0) -- (-1, 0, 0) -- 
+                cycle;
+            \fill[blue!35, opacity=0.6] (1, 0, 0) -- (1, 1, 0) -- (-1, 1, 0) -- 
+                (-1, 0, 0);
+            
+            \draw (0, 0, 0) coordinate (O) node[above right]{\(O\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (1, 0, 0) coordinate (a) 
+                node[left] {\(X\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (0, 1, 0) coordinate (b)
+                node[below] {\(Y\)}; 
+            \draw[thick, -stealth] (0, 0, 0) -- (0, 0, 1) coordinate (c) 
+                node[above] {\(Z, z^{\prime}\)};
+            
+            \draw[thick, -stealth] (0, 0, 0) -- (0.866, 0.5, 0) coordinate 
+                (d) node[below] {\(x^{\prime}\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (-0.5, 0.866, 0) coordinate 
+                (e) node[above right] {\(y^{\prime}\)};
+    
+            \draw[thick, draw=red, -stealth] (0, 0, 0) -- (0, 0, 0.9) 
+                node[below right, red] {\(\dot{\psi}\)};
+
+            \draw pic[thick, ->, "$\psi$", draw=red, text=red, angle radius=40, 
+                angle eccentricity=1.4] {angle = a--O--d};
+            \draw pic[thick, ->, "$\psi$", draw=red, text=red, angle radius=20,
+                angle eccentricity=1.4] {angle = b--O--e};
+        \end{tikzpicture}
+        \caption{Περιστροφή Συστήματος προς άξονα \(OZ\).}
+        \label{fig:rot_z}
+    \end{figure}
+
+    \item Περιστροφή του συστήματος αναφοράς \(f^\prime\) κατά γωνία πρόνευσης 
+    \(\theta\) (\tl{pitch angle}) γύρω από τον τρέχων άξονα \(Oy^\prime 
+    (f^{\prime} \to f^{\prime\prime})\). Με πράσινο χρώμα απεικονίζεται το 
+    επίπεδο περιστροφής.
+
+    \begin{figure}[h]%\kern-1.5ex
+        \tikzset{cross/.style={
+            cross out, draw=black, minimum size=2*(#1-\pgflinewidth),
+            inner sep=0pt, outer sep=0pt}, cross/.default={1pt}}
+        \centering
+        \tdplotsetmaincoords{74}{170}
+        \begin{tikzpicture}[scale = 2.5,tdplot_main_coords]
+            % first half of second plane
+            \draw[thin] (0, 0, 0) -- (0.866, 0.5, 0) -- (0.866, 0.5, -1) -- 
+                (0, 0, -1) -- cycle;
+            \fill[green!35, opacity=0.6] (0, 0, 0) -- (0.866, 0.5, 0) -- 
+                (0.866, 0.5, -1) -- (0, 0, -1);
+            
+            % first plane
+            \draw[thin] (1, 0, 0) -- (1, 1, 0) -- (-1, 1, 0) -- (-1, 0, 0) -- 
+                cycle;
+            \fill[blue!35, opacity=0.6] (1,0,0) -- (1,1,0) -- (-1,1,0) -- 
+                (-1,0,0);
+
+            %second half of second plane
+            \draw[thin] (0.866, 0.5, 0) -- (0.866, 0.5, 1) -- (0, 0, 1)
+                -- (0, 0, 0) -- cycle;
+            \fill[green!35, opacity=0.6] (0.866, 0.5, 0) -- (0.866, 0.5, 1) -- 
+                (0, 0, 1) -- (0, 0, 0);
+            
+            \draw (0,0,0) coordinate (O) node[above right]{\(O\)};
+            % \draw[thick, -stealth] (0, 0, 0) -- (1, 0, 0) coordinate (a) 
+            %     node[left] {\(X\)};
+            % \draw[thick, -stealth] (0, 0, 0) -- (0, 1, 0) coordinate (b)
+            %     node[right] {\(Y\)}; 
+            \draw[thick, -stealth] (0, 0, 0) -- (0, 0, 1) coordinate (c) 
+                node[above] {\(z^{\prime}\)};
+            
+            \draw[thick, -stealth] (0, 0, 0) -- (0.866, 0.5, 0) coordinate 
+                (d) node[left] {\(x^{\prime}\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (-0.5, 0.866, 0) coordinate 
+                (e) node[above] {\(y^{\prime}, y^{\prime\prime}\)};
+            
+            \draw[thick, -stealth] (0, 0, 0) -- (0.8138, 0.4698, -0.342) 
+                coordinate (f) node[left] {\(x^{\prime\prime}\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (0.2962, 0.171, 0.9397) 
+                coordinate (g) node[above] {\(z^{\prime\prime}\)};
+                
+            \draw[thick, draw=red, -stealth] (0, 0, 0) -- (-0.5, 0.866, 0) 
+                node[below, red] {\(\dot{\theta}\)};
+
+            \draw pic[thick, ->, "$\theta$", draw=red, text=red, angle radius=40, 
+                angle eccentricity=1.4] {angle = d--O--f};
+            \draw pic[thick, ->, "$\theta$", draw=red, text=red, angle radius=40,
+                angle eccentricity=1.4] {angle = c--O--g};
+        \end{tikzpicture}
+        \caption{Περιστροφή Συστήματος προς άξονα \(Oy^{\prime}\).}
+        \label{fig:rot_y}
+    \end{figure}
+
+    \item Περιστροφή του συστήματος αναφοράς \(f^{\prime\prime}\) κατά γωνία 
+    διατοίχισης \(\phi\) (\tl{roll angle}) γύρω από τον τρέχων άξονα 
+    \(Ox^{\prime\prime} (f^{\prime\prime} \to f)\). Με κίτρινο χρώμα 
+    απεικονίζεται το επίπεδο περιστροφής.
+    
+    \begin{figure}[h]%\kern-1.5ex
+        \tikzset{cross/.style={
+            cross out, draw=black, minimum size=2*(#1-\pgflinewidth),
+            inner sep=0pt, outer sep=0pt}, cross/.default={1pt}}
+        \centering
+        \tdplotsetmaincoords{85}{150}
+        \begin{tikzpicture}[scale = 2.5, tdplot_main_coords]
+            % first half of second plane
+            \draw[thin] (0, 0, 0) -- (0.866, 0.5, 0) -- (0.866, 0.5, -1) -- 
+                (0, 0, -1) -- cycle;
+            \fill[green!35, opacity=0.4] (0, 0, 0) -- (0.866, 0.5, 0) -- 
+                (0.866, 0.5, -1) -- (0, 0, -1);
+
+            %first half of third plane
+            \draw[thin] (0.5, -0.866, 0) -- (0.7962, -0.695, 0.9397) -- 
+                (0.2962, 0.171, 0.9397) -- (0, 0, 0) -- cycle;
+            \fill[yellow!35, opacity=0.6] (0.5, -0.866, 0) -- 
+                (0.7962, -0.695, 0.9397) -- (0.2962, 0.171, 0.9397) -- 
+                (0, 0, 0);
+
+            %first plane
+            \draw[thin] (1, 0, 0) -- (1, 1, 0) -- (-1, 1, 0) -- (-1, 0, 0) -- 
+                cycle;
+            \fill[blue!35, opacity=0.6] (1,0,0) -- (1,1,0) -- (-1,1,0) -- 
+                (-1,0,0);
+
+            % second half of second plane
+            \draw[thin] (0.866, 0.5, 0) -- (0.866, 0.5, 1) -- (0, 0, 1)
+                -- (0, 0, 0) -- cycle;
+            \fill[green!35, opacity=0.4] (0.866, 0.5, 0) -- (0.866, 0.5, 1) -- 
+                (0, 0, 1) -- (0, 0, 0);
+            
+            %second half of third plane
+            \draw[thin] (-0.5, 0.866, 0) -- (-0.2038, 1.037, 0.9397) -- 
+                (0.2962, 0.171, 0.9397) -- (0, 0, 0) -- cycle;
+            \fill[yellow!35, opacity=0.6] (-0.5, 0.866, 0) -- 
+                (-0.2038, 1.037, 0.9397) -- (0.2962, 0.171, 0.9397) -- 
+                (0, 0, 0);
+
+
+            \draw (0,0,0) coordinate (O) node[above right]{\(O\)};
+            % \draw[thin, -stealth] (0, 0, 0) -- (1, 0, 0) coordinate (a) 
+            %     node[left] {\(X\)};
+            % \draw[thin, -stealth] (0, 0, 0) -- (0, 1, 0) coordinate (b)
+            %     node[right] {\(Y\)}; 
+            % \draw[thin, -stealth] (0, 0, 0) -- (0, 0, 1) coordinate (c) 
+            %     node[above] {\(Z, z^{\prime}\)};
+            
+            
+            % \draw[thin, -stealth] (0, 0, 0) -- (0.866, 0.5, 0) coordinate 
+            %     (d) node[left] {\(x^{\prime}\)};
+            \draw[thin, -stealth] (0, 0, 0) -- (-0.5, 0.866, 0) coordinate 
+                (e) node[below] {\(y^{\prime\prime}\)};
+            
+            \draw[thick, -stealth] (0, 0, 0) -- (0.8138, 0.4698, -0.342) 
+                coordinate (f) node[left] {\(x^{\prime\prime}, x\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (0.2962, 0.171, 0.9397) 
+                coordinate (g) node[above] {\(z^{\prime\prime}\)};
+            
+            \draw[thick, -stealth] (0, 0, 0) -- (-0.3685, 0.8723, 0.3214) 
+                coordinate (h) node[above left] {\(y\)};
+            \draw[thick, -stealth] (0, 0, 0) -- (0.5065, -0.2849, 0.8138)
+                coordinate (i) node[left] {\(z\)};
+                
+            \draw[thick, draw=red, -stealth] (0, 0, 0) -- 
+                (0.8138, 0.4698, -0.342) node[below, red] {\(\dot{\psi}\)};
+
+            \draw pic[thick, ->, "$\psi$", draw=red, text=red, angle radius=40, 
+                angle eccentricity=1.4] {angle = e--O--h};
+            \draw pic[thick, ->, "$\psi$", draw=red, text=red, angle radius=40,
+                angle eccentricity=1.4] {angle = g--O--i};
+        \end{tikzpicture}
+        \caption{Περιστροφή Συστήματος προς άξονα \(Ox^{\prime\prime}\).}
+        \label{fig:rot_x}
+    \end{figure}
+
+\end{itemize}
+
+Οι αντιστοιχίες των συστημάτων αναφοράς με τα συστήματα που ορίστηκαν στην 
+εισαγωγή του κεφαλαίου είναι \(F \to E\) και \(f \to B\).
+
+Σύμφωνα με την ιδιότητα της πρόσθεσης, η γωνιακή ταχύτητα του στερεού σώματος 
+προκύπτει ως
+
+\begin{equation*}
+    \bm{\omega}_{B/E} = {\bm{\omega}_{f/F}} = \bm{\omega}_{f/f^{\prime\prime}} + 
+        \bm{\omega}_{f^{\prime\prime}/f^{\prime}} + 
+        \bm{\omega}_{f^{\prime}/F} = \dot{\phi} \mathbf{e_{x}}
+         + \dot{\theta} \mathbf{e_{y^{\prime}}}
+         + \dot{\psi} \mathbf{e_{z^{\prime}}}.
+\end{equation*}
+
+Έχει ιδιαίτερη πρακτική σημασία η έκφραση των συνιστώσεων του διανύσματος 
+\(\boldsymbol{\omega_{f/F}}\) στο σύστημα \(f\), το οποίο βρίσκεται στερεά 
+δεμένο στο στερεό σώμα, λόγω της παροχής των μετρήσεων από τους αισθητήρες στο
+κεντροβαρικό σύστημα \(B\).
+
+\begin{equation} \label{knm:rot_coord}
+    \begin{split}
+    \omega_{x} = \bm{\omega}_{f/F} \cdot \mathbf{e_{x}} = 
+        \dot{\phi}(\mathbf{e_{x}} \cdot \mathbf{e_{x}}) + 
+        \dot{\theta}(\mathbf{e_{y^{\prime}}} \cdot \mathbf{e_{x}}) + 
+        \dot{\psi}(\mathbf{e_{z^{\prime}}} \cdot \mathbf{e_{x}}) \\
+    \omega_{y} = \bm{\omega}_{f/F} \cdot \mathbf{e_{y}} = 
+        \dot{\phi}(\mathbf{e_{x}} \cdot \mathbf{e_{y}}) + 
+        \dot{\theta}(\mathbf{e_{y^{\prime}}} \cdot \mathbf{e_{y}}) + 
+        \dot{\psi}(\mathbf{e_{z^{\prime}}} \cdot \mathbf{e_{y}}) \\
+    \omega_{z} = \bm{\omega}_{f/F} \cdot \mathbf{e_{z}} = 
+        \dot{\phi}(\mathbf{e_{x}} \cdot \mathbf{e_{z}}) + 
+        \dot{\theta}(\mathbf{e_{y^{\prime}}} \cdot \mathbf{e_{z}}) + 
+        \dot{\psi}(\mathbf{e_{z^{\prime}}} \cdot \mathbf{e_{z}}).
+    \end{split}
+\end{equation}
+
+Ο προσανατολισμός του συστήματος \(f^{\prime}\) ως προς το σύστημα \(f\) 
+καθορίζεται πλήρως από τις τιμές των συνημιτόνων των γωνιών, τις οποίες 
+σχηματίζουν οι άξονες \(Oi^{\prime}\) με \(i^{\prime} = \{x^{\prime}, y^{\prime},
+z^{\prime}\}\) του συστήματος \(f^{\prime}\) ως προς τους άξονες \(Oi\) με 
+\(i= \{x, y, z\}\). Δηλαδή, \(a_{i^{\prime},i} = e_{i^{\prime}} \cdot e_{i} = 
+\cos(e_{i^{\prime}}, e_{i})\).
+
+Άρα, δεδομένου των παραπάνω σχημάτων, εξάγονται τα εξής
+\begin{gather*}
+    \mathbf{e_{x}} \cdot \mathbf{e_{x}} = 1 \quad \text{λόγω παραλληλίας} \\
+    \mathbf{e_{x}} \cdot \mathbf{e_{y}} = \mathbf{e_{x}} \cdot \mathbf{e_{z}} =
+        \mathbf{e_{x}} \cdot \mathbf{e_{y^{\prime}}} = 0 \quad 
+        \text{λόγω καθετότητας} \\
+    \mathbf{e_{z^{\prime}}} \cdot \mathbf{e_{x}} = \cos\left(\pi/2 + 
+        \theta\right) = -\sin\theta \\
+    \mathbf{e_{y^{\prime}}} \cdot \mathbf{e_{z}} = \cos\left(\pi/2 + 
+        \phi\right) = -\sin\phi \\
+    \mathbf{e_{y^{\prime}}} \cdot \mathbf{e_{y}} = \cos\phi \\
+    \mathbf{e_{z^{\prime}}} \cdot \mathbf{e_{y}} = (\mathbf{e_{x^{\prime}}} 
+        \times \mathbf{e_{y^{\prime}}}) \cdot \mathbf{e_{y}} = 
+        ( \mathbf{e_{y^{\prime}}} \times \mathbf{e_{y}}) \cdot 
+        \mathbf{e_{x^{\prime}}} = \sin\phi (\mathbf{e_{x}} \cdot 
+        \mathbf{e_{x^{\prime}}}) = \sin\phi \cos\theta \\
+    \mathbf{e_{z^{\prime}}} \cdot \mathbf{e_z} = (\mathbf{e_{y^{\prime}}} 
+        \times \mathbf{e_{x^{\prime}}}) \cdot \mathbf{e_z} = (\mathbf{e_z} 
+        \times \mathbf{e_{y^{\prime}}}) \cdot \mathbf{e_{x^{\prime}}} = 
+        (\mathbf{e_{x}} \cdot \mathbf{e_{x^{\prime}}}) \cos\phi = \cos\theta
+        \cos\phi.
+\end{gather*}
+
+Οι συνιστώσες (\ref{knm:rot_coord}) λαμβάνουν την μορφή
+
+\begin{gather*}
+    \omega_{x} = \dot{\phi} - \dot{\psi} \sin\theta \\
+    \omega_{y} = \dot{\theta} \cos\phi + \dot{\psi} \sin\phi \cos\theta \\
+    \omega_{z} = -\dot{\theta} \sin\phi + \dot{\psi} \cos\phi \cos\theta.
+\end{gather*}
+
+Η επίλυση του παραπάνω συστήματος εξισώσεων ως προς τις χρονικές παραγώγους των 
+γωνιών \tl{Euler} οδηγεί στο σύστημα μητρωϊκής μορφής
+
+\begin{equation}
+    \begin{pmatrix}
+        {\dot{\phi}} \\
+        {\dot{\theta}} \\
+        {\dot{\psi}}
+    \end{pmatrix} = 
+    \begin{pmatrix}
+        1 & \sin\phi \tan\theta & \cos\phi \tan\theta \\
+        0 & \cos\phi & -\sin\phi \\
+        0 & \sin\phi \sec\theta & \cos\phi \sec\theta 
+    \end{pmatrix}
+    \begin{pmatrix}
+        {\omega_{x}} \\
+        {\omega_{y}} \\
+        {\omega_{z}}
+    \end{pmatrix}
+    \label{knm:rot_knm} \quad\text{ή}\quad  
+    \begin{pmatrix}
+        {\dot{\phi}} \\
+        {\dot{\theta}} \\
+        {\dot{\psi}}
+    \end{pmatrix} = R_{eul}
+    \begin{pmatrix}
+        {\omega_{x}} \\
+        {\omega_{y}} \\
+        {\omega_{z}}
+    \end{pmatrix}. 
+\end{equation}
+
+Οι παραπάνω σχέσεις αποτελούν σύστημα μη-γραμμικών κανονικών διαφορικών 
+εξισώσεων και, συνεπώς, η αναλυτική τους λύση δεν είναι γνωστή. Η επίλυση του 
+γίνεται μέσω αριθμητικών μεθόδων ολοκλήρωσης, έχοντας μετρήσει το διάνυσμα 
+γωνιακής ταχύτητας του στερεού σώματος. Προκύπτει από την λύση ο 
+προσανατολισμός του στερεού σώματος στον χώρο.
+
+Το σύστημα παρουσιάζει πρόβλημα ορισμού για γωνίες \(\theta = \pi/2\), \(\theta 
+= 3\pi/2\). Σε αυτήν την περίπτωση, οι γωνίες \(\phi\) και \(\psi\) περιγράφουν 
+την ίδια περιστροφή και χάνεται ένας βαθμός ελευθερίας, καθιστώντας τον πίνακα 
+ιδιάζων. Γίνεται αναγκαίος, λοιπόν, ο περιορισμός των γωνιών ως εξής
+
+\begin{gather*}
+    \phi \in (-\pi, \pi ] \\
+    \theta \in \left(-\frac{\pi}{2}, \frac{\pi}{2} \right) \\
+    \psi \in (-\pi, \pi].
+\end{gather*}
+
+Ορίζοντας το διάνυσμα \(\mathbf{e} = \left(\phi \quad \theta \quad \psi\right)
+^\intercal\), το πεδίο ορισμού των γωνιών \tl{Euler} γράφεται στην εξής μορφή
+
+\begin{equation*}
+    \mathbf{e} \in U \quad \text{όπου} \quad U = (-\pi, \pi] \times 
+    \left[-\frac{\pi}{2},\frac{\pi}{2} \right] \times (-\pi, \pi].
+\end{equation*}
+
+Το σύστημα (\ref{knm:rot_knm}) αποτελεί τη βασική κινηματική σχέση, η οποία 
+συνδέει την παράγωγο των γωνιών \tl{Euler} με τις περιστροφικές ταχύτητες του 
+αεροχήματος.
+
+\subsection{Μητρώα Περιστροφής}
+\noindent Κρίνεται σημαντικό να αναπτυχθεί μία μέθοδος για τον μετασχηματισμό
+των συντεταγμένων ενός διανύσματος από ένα σύστημα αναφοράς σε ένα άλλο.
+
+Ένα τυχαίο διάνυσμα \(\mathbf{r} \in \mathbb{R}^{3} \) παραμένει το ίδιο 
+ανεξαρτήτως του συστήματος συντεταγμένων στο οποίο εκφράζεται, δηλαδή
+
+\begin{equation*}
+    \mathbf{r} = x\, \mathbf{e_{x}} + y\, \mathbf{e_{y}} + z\, \mathbf{e_{z}} = 
+        X\, \mathbf{e_{X}} + Y\, \mathbf{e_{Y}} + Z\, \mathbf{e_{Z}},
+\end{equation*}
+όπου \( \mathbf{e_{x}}, \mathbf{e_{y}}\) και \(\mathbf{e_{z}}\) είναι τα 
+διανύσματα βάσης του κεντροβαρικού συστήματος \(B\), ενώ \(\mathbf{e_{X}}, 
+\mathbf{e_{Y}}\) και \(\mathbf{e_{Z}}\) είναι τα διανύσματα βάσης του 
+αδρανειακού συστήματος \(E\). Για ευκολία κατανόησης, χρησιμοποιείται ο δείκτης 
+\(B\) ή \(E\) για τον χαρακτηρισμό του συστήματος αναφοράς, που χρησιμοποιείται 
+στην έκφραση του διανύσματος. Οι σχέσεις των συντεταγμένων των δύο συστημάτων, 
+όπως αναφέρθηκε και στην ανάλυση των περιστροφικών κινηματικών σχέσεων, 
+προκύπτουν με τον εξής τρόπο
+
+\begin{align*}
+    X = \mathbf{r}_{B} \cdot \mathbf{e_{X}} &= x\, \mathbf{e_{x}} \cdot 
+        \mathbf{e_{X}} + y\, \mathbf{e_{y}} \cdot \mathbf{e_{X}} + z\, 
+        \mathbf{e_{z}} \cdot \mathbf{e_{X}} \\
+    Y = \mathbf{r}_{B} \cdot \mathbf{e_{Y}} &= x\, \mathbf{e_{x}} \cdot 
+        \mathbf{e_{Y}} + y\, \mathbf{e_{y}} \cdot \mathbf{e_{Y}} + z\, 
+        \mathbf{e_{z}} \cdot \mathbf{e_{Y}} \\
+    Z = \mathbf{r}_{B} \cdot \mathbf{e_{Z}} &= x\, \mathbf{e_{x}} \cdot 
+        \mathbf{e_{Z}} + y\, \mathbf{e_{y}} \cdot \mathbf{e_{Z}} + z\, 
+        \mathbf{e_{z}} \cdot \mathbf{e_{Z}}.
+\end{align*}
+
+Σε μητρωική μορφή, λοιπόν, η έκφραση των συντεταγμένων του διανύσματος 
+\(\mathbf{r}\) στο αδρανειακό σύστημα γίνεται 
+
+\begin{equation*}
+    \begin{pmatrix}
+        X \\
+        Y \\
+        Z \\
+    \end{pmatrix} = 
+    \begin{pmatrix}
+        \mathbf{e_{x}} \cdot \mathbf{e_{X}} & 
+            \mathbf{e_{y}} \cdot \mathbf{e_{X}} &
+            \mathbf{e_{z}} \cdot \mathbf{e_{X}} \\
+        \mathbf{e_{x}} \cdot \mathbf{e_{Y}} & 
+            \mathbf{e_{y}} \cdot \mathbf{e_{Y}} &
+            \mathbf{e_{z}} \cdot \mathbf{e_{Y}} \\
+        \mathbf{e_{x}} \cdot \mathbf{e_{Z}} & 
+            \mathbf{e_{y}} \cdot \mathbf{e_{Z}} &
+            \mathbf{e_{z}} \cdot \mathbf{e_{Z}}
+    \end{pmatrix}
+    \begin{pmatrix}
+        x \\
+        y \\
+        z \\
+    \end{pmatrix}
+\end{equation*}
+ή, σε συμπαγέστερη μορφή,
+\begin{equation}
+    \mathbf{r}_{E} = R\, \mathbf{r}_{B},
+    \label{knm:rot_e_b}
+\end{equation}
+όπου \(R\) είναι το μητρώο περιστροφής, το οποίο καθορίζει τις συντεταγμένες 
+του τυχαίου διανύσματος \(\mathbf{r}\) ως προς το αδρανειακό σύστημα αναφοράς, 
+αν είναι γνωστές οι συντεταγμένες του \(\mathbf{r}\) στο κεντροβαρικό. 
+
+Παρόμοια, για την αντίστροφη έκφραση 
+\begin{align*}
+    x = \mathbf{r}_{E} \cdot \mathbf{e_{x}} &= X\, \mathbf{e_{X}} \cdot 
+        \mathbf{e_{x}} + Y\, \mathbf{e_{Y}} \cdot \mathbf{e_{x}} + Z\, 
+        \mathbf{e_{Z}} \cdot \mathbf{e_{x}} \\
+    y = \mathbf{r}_{E} \cdot \mathbf{e_{y}} &= X\, \mathbf{e_{X}} \cdot 
+        \mathbf{e_{y}} + Y\, \mathbf{e_{Y}} \cdot \mathbf{e_{y}} + Z\, 
+        \mathbf{e_{Z}} \cdot \mathbf{e_{y}} \\
+    z = \mathbf{r}_{E} \cdot \mathbf{e_{z}} &= X\, \mathbf{e_{X}} \cdot 
+        \mathbf{e_{z}} + Y\, \mathbf{e_{Y}} \cdot \mathbf{e_{z}} + Z\, 
+        \mathbf{e_{Z}} \cdot \mathbf{e_{z}} \\
+\end{align*}
+καταλήγουμε στην μητρωϊκή μορφή
+\begin{equation*}
+    \begin{pmatrix}
+        x \\
+        y \\
+        z \\
+    \end{pmatrix} = 
+    \begin{pmatrix}
+        \mathbf{e_{X}} \cdot \mathbf{e_{x}} & 
+            \mathbf{e_{Y}} \cdot \mathbf{e_{x}} &
+            \mathbf{e_{Z}} \cdot \mathbf{e_{x}} \\
+        \mathbf{e_{X}} \cdot \mathbf{e_{y}} & 
+            \mathbf{e_{Y}} \cdot \mathbf{e_{y}} &
+            \mathbf{e_{Z}} \cdot \mathbf{e_{y}} \\
+        \mathbf{e_{X}} \cdot \mathbf{e_{z}} & 
+            \mathbf{e_{Y}} \cdot \mathbf{e_{z}} &
+            \mathbf{e_{Z}} \cdot \mathbf{e_{z}}
+    \end{pmatrix}
+    \begin{pmatrix}
+        X \\
+        Y \\
+        Z \\
+    \end{pmatrix}
+\end{equation*}
+ή σε συμπαγέστερη μορφή
+\begin{equation}
+    \mathbf{r}_{B} = R^\intercal\, \mathbf{r}_{E},
+    \label{knm:rot_b_e}
+\end{equation}
+όπου πίνακας \(R^\intercal\) είναι ο ανάστροφος του \(R\), εφόσον ισχύει 
+συμμετρία γινομένου στον διανυσματικό χώρο που ορίζονται τα συστήματα αναφοράς.
+Από τις σχέσεις (\ref{knm:rot_e_b}) και (\ref{knm:rot_b_e}) προκύπτει ότι
+\begin{equation*}
+    \mathbf{r}_{E} = R (R^\intercal \, \mathbf{r}_{E}) = 
+        (R R^\intercal) \mathbf{r}_{E}
+\end{equation*}
+και, επειδή το διάνυσμα \(\mathbf{r}\) είναι τυχαίο, θα ισχύει
+\begin{equation}
+    R R^\intercal = I_{3\times3}  \qquad \text{όπου} \quad \, I_{3x3} \, 
+        \text{μοναδιαίος πίνακας}.
+    \label{knm:ortho}
+\end{equation}
+
+Άρα το μητρώο περιστροφής \(R\) είναι ορθογώνιος πίνακας. Τα παραπάνω επιτρέπουν
+την εύκολη μετατροπή των συντεταγμένων από ένα σύστημα αναφοράς σε ένα άλλο με 
+απλή αναστροφή του πίνακα.
+
+Η ιδιότητα (\ref{knm:ortho}) είναι η φυσική συνέπεια του ότι το μήκος του 
+διανύσματος \(\mathbf{r}\) παραμένει αμετάβλητο κατά την περιστροφή των αξόνων.
+
+Αναλύοντας τα συνημίτονα κατεύθυνσης που απαρτίζεται το μητρώο περιστροφής $R$, 
+από το σύστημα αναφοράς $B$ στο σύστημα $E$, καταλήγουμε στην αναλυτική μορφή 
+του
+
+\begin{equation*}
+    R = 
+    \begin{pmatrix}
+        \cos\psi \cos\theta & \cos\psi \sin\phi \sin\theta - \cos\phi \sin\psi
+            & \sin\phi \sin\psi + \cos\phi \cos\psi \sin\theta \\
+        \cos\theta \sin\psi & \cos\phi \cos\psi + \sin\phi \sin\psi \sin\theta
+            & \cos\phi \sin\psi \sin\theta - \cos\psi \sin\phi \\
+        -\sin\theta & \cos\theta \sin\phi & \cos\phi \cos\theta 
+    \end{pmatrix}.
+\end{equation*}
+
+Για την ολοκλήρωση των κινηματικών εξισώσεων, απαιτείται η διατύπωση της σχέσης, 
+που συνδέει την έκφραση της μεταφορικής ταχύτητας του κέντρου μάζας 
+($\mathbf{v}_G$) του στερεού σώματος ανάμεσα στα δύο συστήματα αναφοράς. Έτσι, 
+σύμφωνα με τον ορισμό του μητρώο περιστροφής
+\begin{equation}
+    \dot{\mathbf{p}} = R\, (\mathbf{v}_{G})_{B} = (\mathbf{v}_{G})_{E}
+    \label{knm:trans_knm},
+\end{equation}
+ορίζοντας τα μεγέθη 
+$\mathbf{p} = [{x_{E}} \quad {y_{E}} \quad {z_{E}}]^\intercal$, 
+$(\mathbf{v}_{G})_{E} = [\dot{x_{E}} \quad \dot{y_{E}} \quad 
+    \dot{z_{E}}]^\intercal$ και 
+$(\mathbf{v}_{G})_{B} = [u \quad v \quad w]^\intercal$
+προκύπτει η μεταφορική κινηματική σχέση.

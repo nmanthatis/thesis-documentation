@@ -1,0 +1,189 @@
+\section{Απεικόνιση Μεταβλητών Ελέγχου - Δυνάμεων}
+
+% (Οι συναρτήσεις \(p_T(\omega),p_N(\omega), q_T(\omega), q_N(\omega)\) είναι οι
+% χαρακτηρισμοί της δύναμης ώθησης και της ροπής αντίδρασης για την μπροστινή 
+% και την οπίσθια έλικα αντίστοιχα.)
+Οι δυνάμεις ώθησης, που ασκούνται στο όχημα από το εκάστοτε σετ έλικα-κινητήρας, 
+είναι
+\begin{equation*}
+    \mathbf{T}_l = \begin{pmatrix}
+        -p_T(\omega_l)sin(\theta_l) \\
+        0                           \\
+        -p_T(\omega_l)cos(\theta_l)
+    \end{pmatrix},\qquad
+    \mathbf{T}_r = \begin{pmatrix}
+        -p_T(\omega_r)sin(\theta_r) \\
+        0                           \\
+        -p_T(\omega_r)cos(\theta_r)
+    \end{pmatrix},\qquad
+    \mathbf{T}_b = \begin{pmatrix}
+        0 \\
+        0 \\
+        -q_T(\omega_b)
+    \end{pmatrix}.
+\end{equation*}
+Έτσι, η συνολική δύναμη ώθησης που ασκείται στο σώμα από τους κινητήρες, παραλείποντας την μηδενική συνιστώσα στην διεύθυνση $y$, είναι
+\begin{equation*}
+    \mathbf{T} = \sum \mathbf{T}_i =
+    \begin{pmatrix}
+        -p_T(\omega_l)sin(\theta_l)-p_T(\omega_r)sin(\theta_r) \\[3pt]
+        -p_T(\omega_l)cos(\theta_l) -p_T(\omega_r)cos(\theta_r)-q_T(\omega_b)
+    \end{pmatrix}.
+\end{equation*}
+Οι ροπές αντίδρασης, που ασκούνται στο όχημα, είναι
+\begin{equation*}
+    \mathbf{N}_l = \begin{pmatrix}
+        -p_N(\omega_l)sin(\theta_l) \\
+        0                          \\
+        -p_N(\omega_l)cos(\theta_l)
+    \end{pmatrix},\qquad
+    \mathbf{N}_r = \begin{pmatrix}
+        -p_N(\omega_r)sin(\theta_r) \\
+        0                          \\
+        -p_N(\omega_r)cos(\theta_r)
+    \end{pmatrix},\qquad
+    \mathbf{N}_b = \begin{pmatrix}
+        0 \\
+        0 \\
+        q_N(\omega_b)
+    \end{pmatrix}.
+\end{equation*}
+Η συνολική ροπή, που ασκείται από τον εμπρόσθιο-αριστερά κινητήρα, είναι
+\begin{gather*}
+    \mathbf{M}_l = \mathbf{r}_l \times \mathbf{T}_l + \mathbf{N}_l =
+    \begin{pmatrix}
+        {l_1 - l_4 sin(\theta_l)} \\
+        {-l_3}                     \\
+        {-l_4 cos(\theta_l)}
+    \end{pmatrix} \times
+    \begin{pmatrix}
+        -p_T(\omega_l)sin(\theta_l) \\
+        0                           \\
+        -p_T(\omega_l)cos(\theta_l)
+    \end{pmatrix} +
+    \begin{pmatrix}
+        -p_N(\omega_l)sin(\theta_l) \\
+        0                          \\
+        -p_N(\omega_l)cos(\theta_l)
+    \end{pmatrix}  \\\\
+    \text{έτσι, προκύπτει}\qquad
+    \mathbf{M}_l =
+    \begin{pmatrix}
+        {l_3 p_T(\omega_l)cos(\theta_l)-p_N(\omega_l)sin(\theta_l)} \\[3pt]
+        {l_1 p_T(\omega_l)cos(\theta_l)}                            \\[3pt]
+        {-l_3 p_T(\omega_l)sin(\theta_l)-p_N(\omega_l)cos(\theta_l)}
+    \end{pmatrix}.
+\end{gather*}
+Αντίστοιχα, για τους άλλους δύο κινητήρες υπολογίζεται
+\begin{equation*}
+    \mathbf{M}_r =
+    \begin{pmatrix}
+        {-l_3 p_T(\omega_r)cos(\theta_r)-p_N(\omega_r)sin(\theta_r)} \\[3pt]
+        {l_1 p_T(\omega_r)cos(\theta_r)}                             \\[3pt]
+        {l_3 p_T(\omega_r)sin(\theta_r)-p_N(\omega_r)cos(\theta_r)}
+    \end{pmatrix},\qquad
+    \mathbf{M}_b =
+    \begin{pmatrix}
+        {0}                  \\[3pt]
+        {-l_2 q_T(\omega_b)} \\[3pt]
+        {q_N(\omega_b)}
+    \end{pmatrix}.
+\end{equation*}
+
+\noindent Έτσι, η συνολική ροπή, που ασκείται στο σώμα, είναι
+
+\begin{gather*}
+    \mathbf{M}_G = \sum \mathbf{M}_i = \\
+    =\begin{pmatrix}
+        {l_3[p_T(\omega_l)cos(\theta_l)- p_T(\omega_r)cos(\theta_r)]
+        - p_N(\omega_l)sin(\theta_l) - p_N(\omega_r)sin(\theta_r)} \\[3pt]
+        l_1[p_T(\omega_l)cos(\theta_l)+p_T(\omega_r)cos(\theta_r)]
+        -l_2 q_T(\omega_b)                                        \\[3pt]
+        l_3[p_T(\omega_r)sin(\theta_r)-p_T(\omega_l)sin(\theta_l)]
+        - p_N(\omega_l)cos(\theta_l) - p_N(\omega_r)cos(\theta_r) +q_N(\omega_b)
+    \end{pmatrix}.
+\end{gather*}
+
+Στη συνέχεια εξάγεται μια 1-1 απεικόνιση των μεταβλητών ελέγχου
+$\mathbf{u}\! =\! \left(\left(\omega_{i\in \{l, r, b\}}\right),\left(\theta_{j
+\in \{l, r\}}\right)\right)$ με τις δυνάμεις $\mathbf{T}$ και τις ροπές $
+\mathbf{M}_G$, που ασκούνται στο αερόχημα. Καθ'αυτό τον τρόπο, γνωρίζοντας τις 
+απαιτούμενες δυνάμεις για την κίνηση του τρικοπτέρου, μπορούν να υπολογιστούν 
+απευθείας οι δράσεις ελέγχου. Ορίζεται η απεικόνιση
+$\overline{f}: [0, \infty)^3\times \mathbb{R}^2\rightarrow \mathbb{R}^5$ με
+\begin{equation*}
+    \overline{f}
+    \left( (\omega_i),(\theta_j) \right) =
+    \left(
+    p_T(\omega_r)sin(\theta_r),\,
+    p_T(\omega_l)sin(\theta_l),\,
+    p_T(\omega_r)cos(\theta_r),\,
+    p_T(\omega_l)cos(\theta_l),\,
+    q_T(\omega_b)
+    \right).
+\end{equation*}
+
+Οι τετραγωνικές συναρτήσεις, που περιγράφουν τα φορτία των ελίκων, είναι 1-1 στο 
+σύνολο $[0,\infty)$ κι έχουν τη μορφή 
+\begin{gather*}
+    p_T(\omega) = p_1 \omega^2,\quad p_N(\omega) = p_2 \omega^2,\quad
+    q_T(\omega) = p_3 \omega^2,\quad q_N(\omega) = p_4 \omega^2.
+\end{gather*}
+Μπορούμε να γράψουμε
+\begin{gather*}
+    p_N(\omega) = c_1 p_T(\omega),\quad q_N(\omega) = c_2 q_T(\omega)\\
+    \text{με}\quad c_1 = p_2 / p_1\quad \text{και}\quad c_2 = p_4 / p_3.
+\end{gather*}
+
+Ορίζεται η απεικόνιση $f:[0, \infty)^3\times \mathbb{R}^2\rightarrow \mathbb{R}
+^5$ με  ${f}\left( (\omega_i),(\theta_j) \right) = \left(Q \circ \overline{f} 
+\right)\left( (\omega_i),(\theta_j) \right)$, όπου $Q:\euclr 5 \rightarrow 
+\euclr 5$ γραμμική αντιστρέψιμη απεικόνιση της μορφής
+\begin{equation*}
+    Q =
+    \begin{pmatrix}
+        -1  & -1   & 0    & 0   & 0    \\
+        0   & 0    & -1   & -1  & -1   \\
+        -c_1 & -c_1  & -l_3 & l_3 & 0    \\
+        0   & 0    & l_1  & l_1 & -l_2 \\
+        l_3 & -l_3 & -c_1  & -c_1 & c_2
+    \end{pmatrix}.
+\end{equation*}
+
+Ορίζονται
+\begin{gather*}
+    W = \mathbb{R}^4 - \left( \{(y_i)\in\mathbb{R}^4 \middle| y_2=y_4=0\}
+    \cup \{(y_i)\in\mathbb{R}^4 \middle| y_1=y_3=0\}\right) \\
+    B = \overline{f}^{-1}\left(W\times[0,\infty)\right)
+\end{gather*}
+και η απεικόνιση $\overline{h}:W\times[0,\infty) \rightarrow\overline{h}(W)$ με
+\begin{equation*}
+    \overline{h}\left((y_i),(z)\right) =
+    \begin{pmatrix}
+        \left(p_T\big|[0,\infty)\right)^{-1}\left((y_2^2+y_4^2)^{1/2}\right) \\
+        \left(p_T\big|[0,\infty)\right)^{-1}\left((y_1^2+y_3^2)^{1/2}\right) \\
+        \left(q_T\big|[0,\infty)\right)^{-1}\left(z\right)                  \\
+        \arcsin\left(\left(\frac{y_2^2}{(y_2^2+y_4^2)}\right)^{1/2}\right) \\
+        \arcsin\left(\left(\frac{y_1^2}{(y_1^2+y_3^2)}\right)^{1/2}\right)
+    \end{pmatrix}.
+\end{equation*}
+Έτσι, μπορούμε να εκφράσουμε το συνολικό διάνυσμα των εξωτερικών δυνάμεων 
+$\mathbf{d} \in \mathbb{R}^5$ με
+\begin{equation*}
+    \mathbf{d} = 
+    \begin{pmatrix}
+        \mathbf{T} \\[6pt]
+        \mathbf{M}
+    \end{pmatrix}
+    = {f}\left( (\omega_i),(\theta_j) \right).
+\end{equation*}
+
+Αντικαθιστώντας, παίρνουμε ότι $\overline{h}\circ\overline{f}\big|B = i_B$, όπου
+$i_B$ η ταυτοτική συνάρτηση. Έτσι, προκύπτει ότι η απεικόνιση $\overline{f}$ 
+είναι 1-1 στο $B$ και η απεικόνιση $\overline{h}$ είναι η αντίστροφη απεικόνιση 
+της $\overline{f}$. Τώρα, μπορούν να υπολογιστούν μονοσήμαντα οι δράσεις ελέγχου
+\begin{gather*}
+    \mathbf{u} = f^{-1}(\mathbf{d}) = (Q \circ \overline{f})^{-1}(\mathbf{d}) = 
+    (\overline{f}^{-1} \circ Q^{-1})(\mathbf{d}) \quad \text{δηλαδή} \quad
+    \mathbf{u} = (\overline{h} \circ Q^{-1})(\mathbf{d}).
+\end{gather*}

@@ -1,0 +1,126 @@
+\usepackage[english,greek]{babel}
+\usepackage[utf8]{inputenc}             % apo 7bit se 8bit gia perissotera sumbola
+\usepackage[T1]{fontenc}                % enables font encoding
+\usepackage{gfsartemisia}               % greek font
+
+\usepackage{amsmath, amsthm, amssymb}   % mathematical symbols and operations
+% \numberwithin{equation}{chapter}
+\usepackage[euler-digits]{eulervm}      % mathematical font
+%\usepackage[varg, bigdelims, vvarbb]{newpxmath}
+\usepackage[bb=px]{mathalfa}            % math alphabets
+\usepackage{bm}                         % bold symbols
+% \usepackage[colorlinks=true]{hyperref}  % hyper references (enable for digital)
+\usepackage{siunitx}                    % display proper units
+\usepackage{nicefrac}  
+\setlength\headsep{1.5em}               % vertical length between header and paragraph
+\setlength\footskip{2.5em}              % vertical length between footnote and paragraph
+\linespread{0.95}                       % distance between two lines
+\setlength\parindent{2em}               % paragraphs not indented but with vertical separation 
+
+\usepackage{booktabs}                   % table optimization and more actions
+
+\usepackage{float}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}                       % tool to create graphic elements
+\usetikzlibrary{arrows.meta, arrows, calc, positioning, shapes.misc}    %select specific libraries from package
+\usetikzlibrary{matrix,fit,calc,trees,positioning,arrows,chains,shapes.geometric,shapes,angles,quotes}
+\usepackage{color}
+\usepackage{pgfplots}                   % function plots
+\pgfplotsset{compat=1.12}
+
+\usepackage[labelsep=quad,font=small,labelfont=bf]{caption} % customize captions
+\usepackage{subcaption}
+
+\usepackage[
+    a4paper, top=0.8in, bottom=1in, inner=1.0in, outer=0.8in
+]{geometry}                             % customize page layout, implementing auto-centering and auto-balancing
+
+\usepackage{csquotes}                   % inline and display quotations
+\usepackage[
+    backend=biber, bibencoding=auto, style=numeric
+]{biblatex}
+\addbibresource[label=biblatex]{ref.bib}
+
+\usepackage{authoraftertitle}
+\makeatletter                           % changes the catcode of @ to 11
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}\parskip=1ex
+\thispagestyle{plain}
+\begin{flushleft}
+    \textbf{\Huge{\@title}\\}
+    \vspace{2em}
+    \@author
+    \vspace{2em}
+\end{flushleft}\egroup
+}
+\makeatother
+
+\usepackage{titlesec}                   % customize titles, headers etc
+\titleformat{\section}[hang]
+{\filleft\Large\bfseries}
+{\thesection}
+{1em}
+{}
+\titlespacing{\section}{0pt}{2.5ex}{1ex}
+\titleformat{\subsection}[hang]
+{\large\bfseries}
+{}
+{0ex}
+{}
+\titlespacing{\subsection}{0ex}{1.5ex}{1ex}
+
+\usepackage{fancyhdr}                   % extensive facilities for header and foot
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\textbf{\large\thepage}}
+\renewcommand{\sectionmark}[1]{
+    \markboth{\MakeUppercase{#1}}{}
+}
+\fancyhead[RE]{\leftmark}
+\renewcommand{\subsectionmark}[1]{
+    \markright{\MakeUppercase{#1}}{}
+}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[LE,RO]{\textbf{\large\thepage}}
+}
+
+\renewcommand{\thesubsection}{}
+\makeatletter
+\def\@subseccntformat#1{
+    \csname #1ignore\expandafter\endcsname\csname the#1\endcsname\quad}
+\let\subsectionignore\@gobbletwo
+\let\latex@numberline\numberline
+\def\numberline#1{\if\relax#1\relax\else\latex@numberline{#1}\fi}
+\makeatother
+
+\usepackage{tocloft}                    %  typography of the Table of Contents, List of Figures and List of Tables
+\renewcommand{\cfttoctitlefont}{\Large\bfseries}
+\renewcommand{\cftdot}{.}
+\renewcommand{\cftdotsep}{5.0}
+
+\setlength{\cftbeforesecskip}{1.0ex}
+\setlength{\cftsecnumwidth}{\parindent}
+\renewcommand{\cftsecfont}{\bfseries}
+\renewcommand{\cftsecpagefont}{\large\bfseries}
+
+%\setlength{\cftbeforesecskip}{0.2ex}
+\setlength{\cftsubsecnumwidth}{\parindent}
+\setlength{\cftsubsecindent}{\cftsecindent}
+\renewcommand{\cftsubsecfont}{\normalfont}
+\renewcommand{\cftsubsecpagefont}{\large\bfseries}
+\renewcommand{\cftsubsecdotsep}{5.0}
+
+\usepackage{array}
+
+%\newenvironment{conditions}[1][με]
+%  {#1 \begin{tabular}[t]{>{$}l<{$} @{${}\quad{}$} l}}
+%  {\end{tabular}\\[\belowdisplayskip]}
+  
+\newenvironment{conditions}[1][με]
+  {#1 \begin{tabular}[t]{>{$}l<{$} @{${}\quad{}$} l}}
+  {\end{tabular}\vskip0.5ex}

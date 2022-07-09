@@ -1,0 +1,56 @@
+\section{Αφινική Δομή Συστήματος}
+
+Οι κινηματικές σχέσεις (\ref{knm:rot_knm}), (\ref{knm:trans_knm}) γράφονται ως
+\begin{gather}
+    \mathbf{\dot e} = R_{eul}\bm{\omega}\\
+    \mathbf{\dot p} = \mathbf{v}.
+\end{gather}
+Μετασχηματίζοντας τις κινητικές σχέσεις (\ref{knt:rot}), (\ref{knt:trans}) 
+προκύπτει
+\begin{gather}
+    \mathbf{{\dot v}} = m^{-1}R \sum \mathbf{T}_i + \mathbf{g}\\
+    \bm{{\dot \omega}} = {I_G}^{-1}\left(\mathbf{M}_G - \bm{\omega}\times I_G
+    \bm{\omega}\right).
+\end{gather}
+
+Ορίζεται το διάνυσμα μεταβλητών κατάστασης $\mathbf{x} \in
+    \mathbb{R}^{9}\!\times U$ και το $m\times1$ διάνυσμα μεταβλητών ελέγχου 
+    $\mathbf{u} \in \mathbb{R}^{2}\times [0,\infty)^3$ 
+\begin{equation*}
+    \mathbf{x} =
+    \begin{pmatrix}
+        \mathbf{v} \\ \bm{\omega} \\ \mathbf{p} \\ \mathbf{e}
+    \end{pmatrix}\quad \text{και} \quad
+    \mathbf{u} =
+    \begin{pmatrix}
+        \theta_l \\ \theta_r \\ \omega_l \\ \omega_r \\ \omega_b
+    \end{pmatrix}.
+\end{equation*}
+
+Οι σχέσεις (\ref{knm:rot_knm}), (\ref{knm:trans_knm}), (\ref{knt:trans}), 
+(\ref{knt:rot}) μπορούν να γραφούν ομαδοποιημένα ώς $\mathbf{\dot x} = 
+f(\mathbf{x}, \mathbf{u})$. Όπως εδείχθη στην προηγουμένη υποενότητα, οι 
+δυνάμεις $\mathbf{d}$ είναι 1-1 με τις δράσεις ελέγχου $ \mathbf{u}$, έτσι, 
+είναι ισοδύναμο να γραφούν οι εξισώσεις ώς προς $\mathbf{d}$. Πλέον, το διάνυσμα 
+εισόδου είναι οι δυνάμεις $\mathbf{d}$ και το σύστημα γράφεται σε αφινική δομή 
+ως προς το διάνυσμα εισόδου ως
+\begin{equation*}
+    \mathbf{\dot x} = f_0(\mathbf{x}) + G(\mathbf{e}) \mathbf{d},
+\end{equation*}
+όπου $f_0: \mathbb{R}^{9}\!\times U \rightarrow \mathbb{R}^{12}$ 
+και $G:U\rightarrow\mathbb{R}^{12}$, με
+\begin{equation*}
+    f_0 = 
+    \begin{pmatrix}
+        m^{-1}\!\mathbf{g} \\
+        I_G^{-1}\left(\bm{\omega}\times I_G\bm{\omega}\right) \\
+        \mathbf{v}\\
+        R_{eul}\bm{\omega}
+    \end{pmatrix}
+    \quad\text{και}\quad
+    G = \begin{pmatrix}
+        m^{-1}R & 0_{3\times 3}\\
+        0_{3\times 3} & I_G^{-1}\\
+        0_{6\times 3} & 0_{6\times 3}
+    \end{pmatrix}.
+\end{equation*}

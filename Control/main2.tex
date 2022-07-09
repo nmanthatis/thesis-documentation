@@ -1,0 +1,31 @@
+\section{μαθηματική θεωρία}
+
+% \noindent \textbf{Ορισμός} 
+% \subsection{Ορισμοί}
+\begin{itemize}
+    \item Έστω $V$ πραγματικό διανυσματικό πεδίο. Ως εσωτερικό γινόμενο ορίζεται η απεικόνιση $\langle\cdot,\cdot\rangle:V\times V \rightarrow \mathbb{R}$ με τις ιδιότητες της διγραμμικότητας, συμμετρίας και ότι είναι θετικά ορισμένο. Ως \textbf{ευκλείδιος χώρος} ορίζεται το ζεύγος $\left(V, \langle\cdot,\cdot\rangle\right)$. Νόρμα του $x$, σε ένα ευκλείδιο χώρο με $x \in V$, είναι η απεικόνιση $\|\cdot\|:V\rightarrow \mathbb{R}$ με $\|x\| = \sqrt{\langle x, x \rangle} \leq 0$.
+    
+    \item \noindent Έστω $A_1, \ldots, A_k$ σύνολα. Συμβολίζουμε ως $\prod _1^{k} A_i$ το γινόμενο τους $A_1 \times \ldots \times A_k$.
+    Αν $x \in \prod _1^k A_i$, συχνά συμβολίζουμε την τιμή της $x$ στο $i$ με $x_i$ και τη $x$ με $\left(x_1, \ldots, x_k\right)$ ή $\left(x_i\right)_1^k$. Όταν δεν υπάρχει κίνδυνος σύγχυσης, συχνά παραλείπουμε τους δείκτες, δηλαδή γράφουμε $\prod A_i$ αντί $\prod_i^k A_i$ και $\left(x_i\right)$ αντί $\left(x_i\right)_1^k$. Αν $A_i = A$ για κάθε $i$, τότε συμβολίζουμε το $\prod A_i$ και ως $A^k$.
+
+    \item Έστω $X_1,\ldots,X_k,Y$ γραμμικοί χώροι. Μια απεικόνιση $ \Lambda: \prod_i^k X_i \rightarrow Y$ ονομάζεται \textbf{πολυγραμμική} ή \textbf{k-γραμμική} αν είναι γραμμική ως προς κάθε μεταβλητή ξεχωριστά, δηλαδή για κάθε $j \in \{1, \ldots, k\}$ και $x_i \in X_i $ για $i \neq j$, η απεικόνιση
+    \begin{equation*}
+        X_j \ni x \mapsto \Lambda\left(x_1, \ldots , x_{j-1}, x, x_{j+1}, \dots, x_k\right) \in Y
+    \end{equation*}
+    είναι γραμμική ως προς $x$. Αν $k = 2$ ή $k = 3$, η $\Lambda$ ονομάζεται \textbf{διγραμμική} και τριγραμμική αντίστοιχα. Επίσης το σύνολο το πολυγραμμικών απεικονίσεων από το $\prod X_i$ στο $Y$ συμβολίζεται με $\mathcal{L}\left(X_1,\ldots,X_k; Y\right)$. Αν $X = X_i$ για κάθε $i \in \{1,\ldots,k\}$ τότε γράφουμε $\mathcal{L}_k(X, Y)$ αντί του $\mathcal{L}\left(X_1,\ldots,X_k;Y\right)$. Το σύνολο των γραμμικών απεικονίσεων του $X$ στο $Y$ είναι το $\mathcal{L}_1(X, Y)$ και συχνά συμβολίζεται απλώς ως $\mathcal{L}(X, Y)$. Αν $Y = X$ τότε γράφουμε $\mathcal{L}_k(X)$ αντί του $\mathcal{L}_k(X, Y)$ και $\mathcal{L}(X)$ αντί του $\mathcal{L}(X, Y)$.
+
+    \item Έστω $X_1,\ldots,X_k$ και $Y$ χώροι με νόρμα και $\Lambda \in \mathcal{L}(X_1,\ldots,X_k; Y)$. Τότε η $\Lambda$ είναι λεία και ισχύει 
+    \begin{equation*}
+        \Lambda'\left((x_i)\right)\left((h_i)\right) = \Lambda(h_1, x_2,\ldots, x_k) + \Lambda(x_1, h_2, x_3, \ldots, x_k) + \ldots + \Lambda(x_1, \ldots, x_{k-1}, x_k)
+    \end{equation*}
+    για κάθε $(x_i),(h_i) \in \prod X_i$.
+\end{itemize}
+
+\textbf{Κατασκευή νόμου ελέγχου}
+
+Έστω $V$ ανοιχτό υποσύνολο του $\mathbb{R}^n$. Θεωρούμε το αφινικό σύστημα ελέγχου 
+\begin{gather*}
+    \dot{x} = f_0(x, y) + \\
+    \dot{y} = A(y)x
+\end{gather*}
+με $f_i: \mathbb{R}^n \times V \rightarrow \mathbb{R}^n$ για  $i \in \{1, \ldots, m\}$ και $A:V\rightarrow$

@@ -1,0 +1,1984 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  21 JAN 2021 20:29
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**thesis
+(./thesis.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 2016/12/29 v1.2b Standard LaTeX option (left equation numbers)
+) (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (./preamble.tex (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count177
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language70) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language70) on input line 108.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-greek/greek.ldf
+Language: greek 2016/09/07 v1.9h Greek support for the babel system
+\bbl@monogreek=\count178
+\bbl@polygreek=\count179
+\bbl@ancientgreek=\count180
+ (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2019/07/09 v0.13.3 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+ (/usr/share/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+) (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13.4 Common Greek font encoding definitions
+)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (./gfsartemisia.sty
+File: gfsartemisia.sty 2007/10/07 v1.0 Package `gfsartemisia.sty'
+  *****************************************************************  GFS-Artemisia style file by A. Tsolomitis and I. Vasilogiorgakis  *****************************************************************
+\symartemisianumbers=\mathgroup4
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/artemisia/m/n on input line 105.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/artemisia/b/n on input line 106.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/artemisia/m/it on input line 107.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 108.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 109.
+ Loading the definitions for the Greek font encoding (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def LGR font encoding definitions already loaded)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen136
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count181
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count182
+\leftroot@=\count183
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count184
+\DOTSCASE@=\count185
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count186
+\c@MaxMatrixCols=\count187
+\dotsspace@=\muskip16
+\c@parentequation=\count188
+\dspbrk@lvl=\count189
+\tag@help=\toks17
+\row@=\count190
+\column@=\count191
+\maxfields@=\count192
+\andhelp@=\toks18
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/eulervm/eulervm.sty
+Package: eulervm 2005/01/11 v4.0 (WaS)
+) (/usr/share/texlive/texmf-dist/tex/latex/mathalpha/mathalfa.sty) (/usr/share/texlive/texmf-dist/tex/latex/mathalpha/mathalpha.sty
+Package: mathalpha 2019/10/05 - 1.13mathalpha (License LPPL) Michael Sharpe
+ `mathalpha' v1.13, 2019/10/05, a renaming of mathalfa (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count193
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `bold'
+(Font)                  U/px-math-ds/m/n --> U/px-math-ds/b/n on input line 151.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count194
+\l__pdf_internal_box=\box47
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count195
+\g__xparse_grabber_int=\count196
+\l__xparse_m_args_int=\count197
+\l__xparse_v_nesting_int=\count198
+)
+Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box48
+\extrarowheight=\dimen146
+\NC@list=\toks29
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box49
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box50
+\l__siunitx_tmp_dim=\dimen147
+\l__siunitx_tmp_int=\count199
+\l__siunitx_number_mantissa_length_int=\count266
+\l__siunitx_number_uncert_length_int=\count267
+\l__siunitx_round_int=\count268
+\l__siunitx_process_decimal_int=\count269
+\l__siunitx_process_uncertainty_int=\count270
+\l__siunitx_process_fixed_int=\count271
+\l__siunitx_process_integer_min_int=\count272
+\l__siunitx_process_precision_int=\count273
+\l__siunitx_group_min_int=\count274
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
+\l__siunitx_angle_marker_dim=\dimen148
+\l__siunitx_angle_unit_dim=\dimen149
+\l__siunitx_unit_int=\count275
+\l__siunitx_unit_denominator_int=\count276
+\l__siunitx_unit_numerator_int=\count277
+\l__siunitx_unit_prefix_int=\count278
+\l__siunitx_unit_prefix_base_int=\count279
+\l__siunitx_unit_prefix_gram_int=\count280
+\l__siunitx_number_product_int=\count281
+\c__siunitx_one_fill_skip=\skip57
+\l__siunitx_table_unit_align_skip=\skip58
+\l__siunitx_table_exponent_dim=\dimen150
+\l__siunitx_table_integer_dim=\dimen151
+\l__siunitx_table_mantissa_dim=\dimen152
+\l__siunitx_table_marker_dim=\dimen153
+\l__siunitx_table_result_dim=\dimen154
+\l__siunitx_table_uncert_dim=\dimen155
+\l__siunitx_table_fill_pre_dim=\dimen156
+\l__siunitx_table_fill_post_dim=\dimen157
+\l__siunitx_table_fill_mid_dim=\dimen158
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
+\l__siunitx_table_number_align_skip=\skip59
+\l__siunitx_table_text_align_skip=\skip60
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+)) (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip61
+\L@UnitsRaiseTextstyle=\skip62
+\L@UnitsRaiseScriptstyle=\skip63
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count282
+\@cmidlb=\count283
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count284
+\@lastruleclass=\count285
+\@thisrulewidth=\dimen171
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count286
+\float@exts=\toks30
+\float@box=\box57
+\@float@everytoks=\toks31
+\@floatcapt=\box58
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen172
+\pgfutil@tempdimb=\dimen173
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen176
+\pgf@y=\dimen177
+\pgf@xa=\dimen178
+\pgf@ya=\dimen179
+\pgf@xb=\dimen180
+\pgf@yb=\dimen181
+\pgf@xc=\dimen182
+\pgf@yc=\dimen183
+\pgf@xd=\dimen184
+\pgf@yd=\dimen185
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count291
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count294
+\pgfmath@box=\box60
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count295
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count296
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen261
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen265
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count297
+\pgf@shadingcount=\count298
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box64
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box65
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen269
+\pgffor@skip=\dimen270
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count299
+\pgfplotmarksize=\dimen271
+)
+\tikz@lastx=\dimen272
+\tikz@lasty=\dimen273
+\tikz@lastxsaved=\dimen274
+\tikz@lastysaved=\dimen275
+\tikz@lastmovetox=\dimen276
+\tikz@lastmovetoy=\dimen277
+\tikzleveldistance=\dimen278
+\tikzsiblingdistance=\dimen279
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count300
+\tikznumberofchildren=\count301
+\tikznumberofcurrentchild=\count302
+\tikz@fig@count=\count303
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count304
+\pgfmatrixcurrentcolumn=\count305
+\pgf@matrix@numberofcolumns=\count306
+)
+\tikz@expandcount=\count307
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen280
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen281
+\pgfarrowlength=\dimen282
+\pgfarrowwidth=\dimen283
+\pgfarrowlinewidth=\dimen284
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box70
+\pgfnodeparttwobox=\box71
+\pgfnodepartthreebox=\box72
+\pgfnodepartfourbox=\box73
+\pgfnodeparttwentybox=\box74
+\pgfnodepartnineteenbox=\box75
+\pgfnodeparteighteenbox=\box76
+\pgfnodepartseventeenbox=\box77
+\pgfnodepartsixteenbox=\box78
+\pgfnodepartfifteenbox=\box79
+\pgfnodepartfourteenbox=\box80
+\pgfnodepartthirteenbox=\box81
+\pgfnodeparttwelvebox=\box82
+\pgfnodepartelevenbox=\box83
+\pgfnodeparttenbox=\box84
+\pgfnodepartninebox=\box85
+\pgfnodeparteightbox=\box86
+\pgfnodepartsevenbox=\box87
+\pgfnodepartsixbox=\box88
+\pgfnodepartfivebox=\box89
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks44
+\t@pgfplots@tokb=\toks45
+\t@pgfplots@tokc=\toks46
+\pgfplots@tmpa=\dimen285
+\c@pgfplots@coordindex=\count308
+\c@pgfplots@scanlineindex=\count309
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count310
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count311
+\t@pgfplotstable@a=\toks47
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count312
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen286
+\pgfdecoratedremainingdistance=\dimen287
+\pgfdecoratedinputsegmentcompleteddistance=\dimen288
+\pgfdecoratedinputsegmentremainingdistance=\dimen289
+\pgf@decorate@distancetomove=\dimen290
+\pgf@decorate@repeatstate=\count313
+\pgfdecorationsegmentamplitude=\dimen291
+\pgfdecorationsegmentlength=\dimen292
+)
+\tikz@lib@dec@box=\box90
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count314
+\pgfplots@xmin@reg=\dimen293
+\pgfplots@xmax@reg=\dimen294
+\pgfplots@ymin@reg=\dimen295
+\pgfplots@ymax@reg=\dimen296
+\pgfplots@zmin@reg=\dimen297
+\pgfplots@zmax@reg=\dimen298
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen299
+\captionmargin@=\dimen300
+\captionwidth=\dimen301
+\caption@tempdima=\dimen302
+\caption@indent=\dimen303
+\caption@parindent=\dimen304
+\caption@hangindent=\dimen305
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count315
+\c@continuedfloat=\count316
+Package caption Info: float package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count317
+\c@subtable=\count318
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count319
+\Gm@cntv=\count320
+\c@Gm@tempcnt=\count321
+\Gm@bindingoffset=\dimen306
+\Gm@wd@mp=\dimen307
+\Gm@odd@mp=\dimen308
+\Gm@even@mp=\dimen309
+\Gm@layoutwidth=\dimen310
+\Gm@layoutheight=\dimen311
+\Gm@layouthoffset=\dimen312
+\Gm@layoutvoffset=\dimen313
+\Gm@dimlist=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+ (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count322
+)
+\csq@reset=\count323
+\csq@gtype=\count324
+\csq@glevel=\count325
+\csq@qlevel=\count326
+\csq@maxlvl=\count327
+\csq@tshold=\count328
+\csq@ltx@everypar=\toks49
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count329
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count330
+\c@listtotal=\count331
+\c@listcount=\count332
+\c@liststart=\count333
+\c@liststop=\count334
+\c@citecount=\count335
+\c@citetotal=\count336
+\c@multicitecount=\count337
+\c@multicitetotal=\count338
+\c@instcount=\count339
+\c@maxnames=\count340
+\c@minnames=\count341
+\c@maxitems=\count342
+\c@minitems=\count343
+\c@citecounter=\count344
+\c@maxcitecounter=\count345
+\c@savedcitecounter=\count346
+\c@uniquelist=\count347
+\c@uniquename=\count348
+\c@refsection=\count349
+\c@refsegment=\count350
+\c@maxextratitle=\count351
+\c@maxextratitleyear=\count352
+\c@maxextraname=\count353
+\c@maxextradate=\count354
+\c@maxextraalpha=\count355
+\c@abbrvpenalty=\count356
+\c@highnamepenalty=\count357
+\c@lownamepenalty=\count358
+\c@maxparens=\count359
+\c@parenlevel=\count360
+\blx@tempcnta=\count361
+\blx@tempcntb=\count362
+\blx@tempcntc=\count363
+\blx@maxsection=\count364
+\blx@maxsegment@0=\count365
+\blx@notetype=\count366
+\blx@parenlevel@text=\count367
+\blx@parenlevel@foot=\count368
+\blx@sectionciteorder@0=\count369
+\blx@entrysetcounter=\count370
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language85
+\c@mincomprange=\count371
+\c@maxcomprange=\count372
+\c@mincompwidth=\count373
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count374
+\c@savedafterword=\count375
+\c@annotator=\count376
+\c@savedannotator=\count377
+\c@author=\count378
+\c@savedauthor=\count379
+\c@bookauthor=\count380
+\c@savedbookauthor=\count381
+\c@commentator=\count382
+\c@savedcommentator=\count383
+\c@editor=\count384
+\c@savededitor=\count385
+\c@editora=\count386
+\c@savededitora=\count387
+\c@editorb=\count388
+\c@savededitorb=\count389
+\c@editorc=\count390
+\c@savededitorc=\count391
+\c@foreword=\count392
+\c@savedforeword=\count393
+\c@holder=\count394
+\c@savedholder=\count395
+\c@introduction=\count396
+\c@savedintroduction=\count397
+\c@namea=\count398
+\c@savednamea=\count399
+\c@nameb=\count400
+\c@savednameb=\count401
+\c@namec=\count402
+\c@savednamec=\count403
+\c@translator=\count404
+\c@savedtranslator=\count405
+\c@shortauthor=\count406
+\c@savedshortauthor=\count407
+\c@shorteditor=\count408
+\c@savedshorteditor=\count409
+\c@labelname=\count410
+\c@savedlabelname=\count411
+\c@institution=\count412
+\c@savedinstitution=\count413
+\c@lista=\count414
+\c@savedlista=\count415
+\c@listb=\count416
+\c@savedlistb=\count417
+\c@listc=\count418
+\c@savedlistc=\count419
+\c@listd=\count420
+\c@savedlistd=\count421
+\c@liste=\count422
+\c@savedliste=\count423
+\c@listf=\count424
+\c@savedlistf=\count425
+\c@location=\count426
+\c@savedlocation=\count427
+\c@organization=\count428
+\c@savedorganization=\count429
+\c@origlocation=\count430
+\c@savedoriglocation=\count431
+\c@origpublisher=\count432
+\c@savedorigpublisher=\count433
+\c@publisher=\count434
+\c@savedpublisher=\count435
+\c@language=\count436
+\c@savedlanguage=\count437
+\c@origlanguage=\count438
+\c@savedoriglanguage=\count439
+\c@pageref=\count440
+\c@savedpageref=\count441
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count442
+\c@textcitetotal=\count443
+\c@textcitemaxnames=\count444
+\c@biburlbigbreakpenalty=\count445
+\c@biburlbreakpenalty=\count446
+\c@biburlnumpenalty=\count447
+\c@biburlucpenalty=\count448
+\c@biburllcpenalty=\count449
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count450
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count451
+\c@bbx:relatedtotal=\count452
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/share/texlive/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty
+Package: authoraftertitle 2006/10/14 v0.9 package for Author after Titlepage
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box91
+\beforetitleunit=\skip86
+\aftertitleunit=\skip87
+\ttl@plus=\dimen314
+\ttl@minus=\dimen315
+\ttl@toksa=\toks50
+\titlewidth=\dimen316
+\titlewidthlast=\dimen317
+\titlewidthfirst=\dimen318
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip88
+\f@nch@O@elh=\skip89
+\f@nch@O@erh=\skip90
+\f@nch@O@olh=\skip91
+\f@nch@O@orh=\skip92
+\f@nch@O@elf=\skip93
+\f@nch@O@erf=\skip94
+\f@nch@O@olf=\skip95
+\f@nch@O@orf=\skip96
+) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip97
+\cftbeforetoctitleskip=\skip98
+\cftaftertoctitleskip=\skip99
+\cftbeforepartskip=\skip100
+\cftpartnumwidth=\skip101
+\cftpartindent=\skip102
+\cftbeforechapskip=\skip103
+\cftchapindent=\skip104
+\cftchapnumwidth=\skip105
+\cftbeforesecskip=\skip106
+\cftsecindent=\skip107
+\cftsecnumwidth=\skip108
+\cftbeforesubsecskip=\skip109
+\cftsubsecindent=\skip110
+\cftsubsecnumwidth=\skip111
+\cftbeforesubsubsecskip=\skip112
+\cftsubsubsecindent=\skip113
+\cftsubsubsecnumwidth=\skip114
+\cftbeforeparaskip=\skip115
+\cftparaindent=\skip116
+\cftparanumwidth=\skip117
+\cftbeforesubparaskip=\skip118
+\cftsubparaindent=\skip119
+\cftsubparanumwidth=\skip120
+\cftbeforeloftitleskip=\skip121
+\cftafterloftitleskip=\skip122
+\cftbeforefigskip=\skip123
+\cftfigindent=\skip124
+\cftfignumwidth=\skip125
+\c@lofdepth=\count453
+\c@lotdepth=\count454
+\cftbeforelottitleskip=\skip126
+\cftafterlottitleskip=\skip127
+\cftbeforetabskip=\skip128
+\cfttabindent=\skip129
+\cfttabnumwidth=\skip130
+)) (./macros.tex (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks51
+\labelindent=\skip131
+\enit@outerparindent=\dimen319
+\enit@toks=\toks52
+\enit@inbox=\box92
+\enit@count@id=\count455
+\enitdp@description=\count456
+)
+\centerwidth=\skip132
+\currentparindent=\skip133
+ (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count457
+\calc@Bcount=\count458
+\calc@Adimen=\dimen320
+\calc@Bdimen=\dimen321
+\calc@Askip=\skip134
+\calc@Bskip=\skip135
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count459
+\calc@Cskip=\skip136
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count460
+\l_MT_multwidth_dim=\dimen322
+\origjot=\skip137
+\l_MT_shortvdotswithinadjustabove_dim=\dimen323
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen324
+\l_MT_above_intertext_sep=\dimen325
+\l_MT_below_intertext_sep=\dimen326
+\l_MT_above_shortintertext_sep=\dimen327
+\l_MT_below_shortintertext_sep=\dimen328
+)
+\c@thrm=\count461
+\c@exercise=\count462
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'greek'.
+ (./thesis.aux
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+
+LaTeX Warning: Label `fig:image2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sk_section_view' multiply defined.
+
+
+LaTeX Warning: Label `fig:testig' multiply defined.
+
+)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Trying to load font information for T1+artemisia on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/t1artemisia.fd)
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 10.18341pt on input line 10.
+LaTeX Font Info:    Trying to load font information for LGR+artemisia on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/lgrartemisia.fd)
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 10.18341pt on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+) ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count463
+\scratchdimen=\dimen329
+\scratchbox=\box93
+\nofMPsegments=\count464
+\nofMParguments=\count465
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count466
+\MPscratchDim=\dimen330
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
+\everyMPtoPDFconversion=\toks54
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.16} (current compat level: 1.12).
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 467.42168pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 714.96065pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=467.42168pt
+* \textheight=714.96065pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-42.7856pt
+* \headheight=15.2pt
+* \headsep=16.33182pt
+* \topskip=11.0pt
+* \footskip=27.2197pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'greek'...
+Package biblatex Info: ... file 'greek.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/greek.lbx
+File: greek.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (./thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 7.43994pt on input line 10.
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 10.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeur.fd
+File: uzeur.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeus.fd
+File: uzeus.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeuex.fd
+File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+artemisia on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/ot1artemisia.fd)
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 10.18341pt on input line 10.
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 7.43994pt on input line 10.
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 10.
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 10.18341pt on input line 10.
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 7.43994pt on input line 10.
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 5.57996pt on input line 10.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) (./Title_Page/main.tex
+<Title_Page/LogoAUTHblack300ppi.png, id=4, 301.125pt x 301.125pt>
+File: Title_Page/LogoAUTHblack300ppi.png Graphic file (type png)
+<use Title_Page/LogoAUTHblack300ppi.png>
+Package pdftex.def Info: Title_Page/LogoAUTHblack300ppi.png  used on input line 17.
+(pdftex.def)             Requested size: 60.76709pt x 60.76611pt.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/sc' will be
+(Font)              scaled to size 10.18341pt on input line 25.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/sc' will be
+(Font)              scaled to size 13.39188pt on input line 25.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/sc' will be
+(Font)              scaled to size 11.15991pt on input line 28.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 19.28804pt on input line 40.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 19.28804pt on input line 40.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 45.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/it' will be
+(Font)              scaled to size 11.15991pt on input line 46.
+<Title_Page/Assembly_1.png, id=6, 1000.48781pt x 636.87938pt>
+File: Title_Page/Assembly_1.png Graphic file (type png)
+<use Title_Page/Assembly_1.png>
+Package pdftex.def Info: Title_Page/Assembly_1.png  used on input line 64.
+(pdftex.def)             Requested size: 467.42168pt x 297.54524pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Title_Page/LogoAUTHblack300ppi.png> <./Title_Page/Assembly_1.png>] [2
+
+]) (./Abstract/main.tex
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 23.13821pt on input line 2.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 23.13821pt on input line 2.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 10.18341pt on input line 28.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 11.15991pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/artemisia/b/n' will be
+(Font)              scaled to size 11.15991pt on input line 28.
+ [1
+
+] [2
+
+]
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 23.13821pt on input line 31.
+ [3
+
+] [4
+
+]) [5
+
+] [6
+
+]
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 13.39188pt on input line 17.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 13.39188pt on input line 17.
+ (./thesis.toc
+LaTeX Font Info:    Font shape `OT1/artemisia/b/n' will be
+(Font)              scaled to size 10.18341pt on input line 31.
+)
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+ [7] [8
+
+] (./Intro/main.tex
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  1.
+<Skoupa/RX-4_Assembly_Positioning_v6.png, id=50, 1276.77pt x 641.39626pt>
+File: Skoupa/RX-4_Assembly_Positioning_v6.png Graphic file (type png)
+<use Skoupa/RX-4_Assembly_Positioning_v6.png>
+Package pdftex.def Info: Skoupa/RX-4_Assembly_Positioning_v6.png  used on input line 37.
+(pdftex.def)             Requested size: 373.93877pt x 187.84987pt.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 9.29993pt on input line 39.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 9.29993pt on input line 39.
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 9.29993pt on input line 39.
+[1
+
+ <./Skoupa/RX-4_Assembly_Positioning_v6.png>]
+LaTeX Font Info:    Trying to load font information for U+artemisianums on input line 51.
+ (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/uartemisianums.fd)
+LaTeX Font Info:    Font shape `U/artemisianums/m/tabnums' will be
+(Font)              scaled to size 10.18341pt on input line 51.
+Missing character: There is no & in font gartemisiarg6a!
+) (./Dynamics/main.tex [2] [3]
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  2.
+(./Dynamics/Intro/main.tex) (./Dynamics/Kinematics/main.tex
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 11.15991pt on input line 18.
+ [4
+
+]
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 6.50995pt on input line 74.
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 4.64996pt on input line 74.
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 9.29993pt on input line 74.
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 6.50995pt on input line 74.
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 4.64996pt on input line 74.
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 9.29993pt on input line 74.
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 6.50995pt on input line 74.
+LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
+(Font)              scaled to size 4.64996pt on input line 74.
+ [5]
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 7.43994pt on input line 285.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 285.
+ [6] [7]) (./Dynamics/Kinetics/main.tex [8]
+<Dynamics/FreeBodyDiagram1.png, id=88, 728.7225pt x 446.41782pt>
+File: Dynamics/FreeBodyDiagram1.png Graphic file (type png)
+<use Dynamics/FreeBodyDiagram1.png>
+Package pdftex.def Info: Dynamics/FreeBodyDiagram1.png  used on input line 130.
+(pdftex.def)             Requested size: 364.36035pt x 223.20836pt.
+Missing character: There is no ; in font nullfont!
+) (./Dynamics/Represantation/main.tex [9] [10 <./Dynamics/FreeBodyDiagram1.png>] [11]) (./Dynamics/Affine/main.tex)) (./Propeller/main.tex [12]
+<Propeller/blade_image.png, id=106, 1298.8525pt x 592.2125pt>
+File: Propeller/blade_image.png Graphic file (type png)
+<use Propeller/blade_image.png>
+Package pdftex.def Info: Propeller/blade_image.png  used on input line 22.
+(pdftex.def)             Requested size: 467.42168pt x 213.115pt.
+ [13 <./Propeller/blade_image.png>]
+LaTeX Font Info:    Font shape `T1/artemisia/m/it' will be
+(Font)              scaled to size 10.18341pt on input line 74.
+LaTeX Font Info:    Font shape `T1/artemisia/m/it' will be
+(Font)              scaled to size 7.43994pt on input line 74.
+LaTeX Font Info:    Font shape `T1/artemisia/m/it' will be
+(Font)              scaled to size 5.57996pt on input line 74.
+<Propeller/fig_CT_J.png, id=111, 856.76085pt x 538.29105pt>
+File: Propeller/fig_CT_J.png Graphic file (type png)
+<use Propeller/fig_CT_J.png>
+Package pdftex.def Info: Propeller/fig_CT_J.png  used on input line 112.
+(pdftex.def)             Requested size: 224.3604pt x 140.96265pt.
+<Propeller/fig_CN_J.png, id=112, 830.3823pt x 523.9575pt>
+File: Propeller/fig_CN_J.png Graphic file (type png)
+<use Propeller/fig_CN_J.png>
+Package pdftex.def Info: Propeller/fig_CN_J.png  used on input line 118.
+(pdftex.def)             Requested size: 224.3604pt x 141.56635pt.
+ [14 <./Propeller/fig_CT_J.png (PNG copy)> <./Propeller/fig_CN_J.png (PNG copy)>]
+<Propeller/fig_surf_T.png, id=117, 873.2625pt x 526.24605pt>
+File: Propeller/fig_surf_T.png Graphic file (type png)
+<use Propeller/fig_surf_T.png>
+Package pdftex.def Info: Propeller/fig_surf_T.png  used on input line 148.
+(pdftex.def)             Requested size: 392.9645pt x 236.80852pt.
+<Propeller/fig_surf_N.png, id=118, 872.5398pt x 527.69145pt>
+File: Propeller/fig_surf_N.png Graphic file (type png)
+<use Propeller/fig_surf_N.png>
+Package pdftex.def Info: Propeller/fig_surf_N.png  used on input line 154.
+(pdftex.def)             Requested size: 392.63928pt x 237.45895pt.
+ [15 <./Propeller/fig_surf_T.png (PNG copy)> <./Propeller/fig_surf_N.png (PNG copy)>]
+<Propeller/ThrustApproximation.png, id=123, 811.42752pt x 681.91396pt>
+File: Propeller/ThrustApproximation.png Graphic file (type png)
+<use Propeller/ThrustApproximation.png>
+Package pdftex.def Info: Propeller/ThrustApproximation.png  used on input line 228.
+(pdftex.def)             Requested size: 233.71083pt x 196.40771pt.
+<Propeller/TorqueApproximation.png, id=124, 845.77367pt x 677.6207pt>
+File: Propeller/TorqueApproximation.png Graphic file (type png)
+<use Propeller/TorqueApproximation.png>
+Package pdftex.def Info: Propeller/TorqueApproximation.png  used on input line 235.
+(pdftex.def)             Requested size: 233.71083pt x 187.24065pt.
+ [16 <./Propeller/ThrustApproximation.png (PNG copy)>]
+<Propeller/Master_Airsrew_9x4.jpg, id=129, 575.14874pt x 99.37125pt>
+File: Propeller/Master_Airsrew_9x4.jpg Graphic file (type jpg)
+<use Propeller/Master_Airsrew_9x4.jpg>
+Package pdftex.def Info: Propeller/Master_Airsrew_9x4.jpg  used on input line 264.
+(pdftex.def)             Requested size: 224.3604pt x 38.76372pt.
+LaTeX Info: Redefining \anw@print on input line 265.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 8.36993pt on input line 265.
+LaTeX Font Info:    Font shape `LGR/artemisia/b/n' will be
+(Font)              scaled to size 8.36993pt on input line 265.
+LaTeX Info: Redefining \anw@print on input line 265.
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 8.36993pt on input line 265.
+LaTeX Info: Redefining \anw@print on input line 265.
+LaTeX Info: Redefining \anw@print on input line 265.
+<Propeller/APCProp_10x45MR.png, id=130, 593.21625pt x 118.4425pt>
+File: Propeller/APCProp_10x45MR.png Graphic file (type png)
+<use Propeller/APCProp_10x45MR.png>
+Package pdftex.def Info: Propeller/APCProp_10x45MR.png  used on input line 269.
+(pdftex.def)             Requested size: 224.3604pt x 44.79535pt.
+LaTeX Info: Redefining \anw@print on input line 270.
+LaTeX Info: Redefining \anw@print on input line 270.
+LaTeX Info: Redefining \anw@print on input line 270.
+LaTeX Info: Redefining \anw@print on input line 270.
+<Propeller/schematic.png, id=131, 1151.80313pt x 581.92406pt>
+File: Propeller/schematic.png Graphic file (type png)
+<use Propeller/schematic.png>
+Package pdftex.def Info: Propeller/schematic.png  used on input line 286.
+(pdftex.def)             Requested size: 467.42168pt x 236.15744pt.
+) (./Motor/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./Propeller/TorqueApproximation.png (PNG copy)> <./Propeller/Master_Airsrew_9x4.jpg> <./Propeller/APCProp_10x45MR.png>]
+<Motor/AXI2826_10_GL_1.png, id=136, 222.8325pt x 301.8778pt>
+File: Motor/AXI2826_10_GL_1.png Graphic file (type png)
+<use Motor/AXI2826_10_GL_1.png>
+Package pdftex.def Info: Motor/AXI2826_10_GL_1.png  used on input line 16.
+(pdftex.def)             Requested size: 66.85027pt x 90.56403pt.
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 17.
+<Motor/AXI2220_12_v2_long_1.png, id=137, 194.45845pt x 302.49092pt>
+File: Motor/AXI2220_12_v2_long_1.png Graphic file (type png)
+<use Motor/AXI2220_12_v2_long_1.png>
+Package pdftex.def Info: Motor/AXI2220_12_v2_long_1.png  used on input line 22.
+(pdftex.def)             Requested size: 58.33797pt x 90.74797pt.
+LaTeX Info: Redefining \anw@print on input line 23.
+LaTeX Info: Redefining \anw@print on input line 23.
+LaTeX Info: Redefining \anw@print on input line 23.
+LaTeX Info: Redefining \anw@print on input line 23.
+<Motor/Electric_Circuit.png, id=138, 737.75626pt x 324.21124pt>
+File: Motor/Electric_Circuit.png Graphic file (type png)
+<use Motor/Electric_Circuit.png>
+Package pdftex.def Info: Motor/Electric_Circuit.png  used on input line 37.
+(pdftex.def)             Requested size: 221.32858pt x 97.26411pt.
+ [18 <./Propeller/schematic.png (PNG copy)> <./Motor/AXI2826_10_GL_1.png> <./Motor/AXI2220_12_v2_long_1.png> <./Motor/Electric_Circuit.png>]) (./Skoupa/main.tex [19]
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  3.
+<Skoupa/Assembly_1_edit.png, id=147, 841.64438pt x 619.56468pt>
+File: Skoupa/Assembly_1_edit.png Graphic file (type png)
+<use Skoupa/Assembly_1_edit.png>
+Package pdftex.def Info: Skoupa/Assembly_1_edit.png  used on input line 21.
+(pdftex.def)             Requested size: 420.67665pt x 309.67758pt.
+
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [20
+
+ <./Skoupa/Assembly_1_edit.png>]
+<Skoupa/Expl_Frame_3_edit.png, id=152, 867.24pt x 439.6425pt>
+File: Skoupa/Expl_Frame_3_edit.png Graphic file (type png)
+<use Skoupa/Expl_Frame_3_edit.png>
+Package pdftex.def Info: Skoupa/Expl_Frame_3_edit.png  used on input line 35.
+(pdftex.def)             Requested size: 373.93877pt x 189.56584pt.
+<Skoupa/mechanism_ray_3_edit.png, id=153, 1050.17343pt x 490.08093pt>
+File: Skoupa/mechanism_ray_3_edit.png Graphic file (type png)
+<use Skoupa/mechanism_ray_3_edit.png>
+Package pdftex.def Info: Skoupa/mechanism_ray_3_edit.png  used on input line 57.
+(pdftex.def)             Requested size: 373.93877pt x 174.50714pt.
+<Skoupa/Expl_Mechanism_edit.png, id=154, 1001.24063pt x 485.56406pt>
+File: Skoupa/Expl_Mechanism_edit.png Graphic file (type png)
+<use Skoupa/Expl_Mechanism_edit.png>
+Package pdftex.def Info: Skoupa/Expl_Mechanism_edit.png  used on input line 75.
+(pdftex.def)             Requested size: 373.93877pt x 181.34515pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./Skoupa/Expl_Frame_3_edit.png> <./Skoupa/mechanism_ray_3_edit.png>]
+<Skoupa/Expl_Pixhawk_Assembly_edit.png, id=161, 699.36281pt x 525.46312pt>
+File: Skoupa/Expl_Pixhawk_Assembly_edit.png Graphic file (type png)
+<use Skoupa/Expl_Pixhawk_Assembly_edit.png>
+Package pdftex.def Info: Skoupa/Expl_Pixhawk_Assembly_edit.png  used on input line 88.
+(pdftex.def)             Requested size: 179.489pt x 134.85324pt.
+<Skoupa/Expl_BackMotor_edit.png, id=162, 729.47531pt x 580.41844pt>
+File: Skoupa/Expl_BackMotor_edit.png Graphic file (type png)
+<use Skoupa/Expl_BackMotor_edit.png>
+Package pdftex.def Info: Skoupa/Expl_BackMotor_edit.png  used on input line 93.
+(pdftex.def)             Requested size: 179.489pt x 142.81042pt.
+<Skoupa/photo.png, id=163, 2264.46pt x 1698.345pt>
+File: Skoupa/photo.png Graphic file (type png)
+<use Skoupa/photo.png>
+Package pdftex.def Info: Skoupa/photo.png  used on input line 104.
+(pdftex.def)             Requested size: 373.93877pt x 280.44806pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./Skoupa/Expl_Mechanism_edit.png> <./Skoupa/Expl_Pixhawk_Assembly_edit.png> <./Skoupa/Expl_BackMotor_edit.png>] [23 <./Skoupa/photo.png (PNG copy)>]
+<Motor/fig_N_omega.png, id=173, 968.86969pt x 529.98pt>
+File: Motor/fig_N_omega.png Graphic file (type png)
+<use Motor/fig_N_omega.png>
+Package pdftex.def Info: Motor/fig_N_omega.png  used on input line 176.
+(pdftex.def)             Requested size: 224.3604pt x 122.72577pt.
+<Motor/fig_Pm_omega.png, id=174, 893.58844pt x 527.72156pt>
+File: Motor/fig_Pm_omega.png Graphic file (type png)
+<use Motor/fig_Pm_omega.png>
+Package pdftex.def Info: Motor/fig_Pm_omega.png  used on input line 183.
+(pdftex.def)             Requested size: 224.3604pt x 132.49373pt.
+<Motor/fig_nm_omega.png, id=175, 874.01532pt x 532.23843pt>
+File: Motor/fig_nm_omega.png Graphic file (type png)
+<use Motor/fig_nm_omega.png>
+Package pdftex.def Info: Motor/fig_nm_omega.png  used on input line 190.
+(pdftex.def)             Requested size: 262.20662pt x 159.67276pt.
+<Motor/fig_M_omega.png, id=176, 931.98187pt x 530.73282pt>
+File: Motor/fig_M_omega.png Graphic file (type png)
+<use Motor/fig_M_omega.png>
+Package pdftex.def Info: Motor/fig_M_omega.png  used on input line 213.
+(pdftex.def)             Requested size: 224.3604pt x 127.7672pt.
+<Motor/fig_T_omega.png, id=177, 932.73468pt x 530.73282pt>
+File: Motor/fig_T_omega.png Graphic file (type png)
+<use Motor/fig_T_omega.png>
+Package pdftex.def Info: Motor/fig_T_omega.png  used on input line 220.
+(pdftex.def)             Requested size: 224.3604pt x 127.66191pt.
+<Motor/fig_np_omega.png, id=178, 938.00438pt x 529.22719pt>
+File: Motor/fig_np_omega.png Graphic file (type png)
+<use Motor/fig_np_omega.png>
+Package pdftex.def Info: Motor/fig_np_omega.png  used on input line 227.
+(pdftex.def)             Requested size: 234.50052pt x 132.30647pt.
+ [24 <./Motor/fig_N_omega.png (PNG copy)> <./Motor/fig_Pm_omega.png (PNG copy)> <./Motor/fig_nm_omega.png (PNG copy)>]
+<Motor/untitled.png, id=182, 742.27313pt x 723.45282pt>
+File: Motor/untitled.png Graphic file (type png)
+<use Motor/untitled.png>
+Package pdftex.def Info: Motor/untitled.png  used on input line 248.
+(pdftex.def)             Requested size: 445.36732pt x 434.07504pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./Motor/fig_M_omega.png (PNG copy)> <./Motor/fig_T_omega.png (PNG copy)> <./Motor/fig_np_omega.png (PNG copy)>]) (./Control/main.tex [26 <./Motor/untitled.png (PNG copy)>]
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  4.
+(./Control/Definitions/main.tex [27
+
+]
+LaTeX Font Info:    Font shape `LGR/artemisia/m/it' will be
+(Font)              scaled to size 10.18341pt on input line 157.
+ [28]
+LaTeX Font Info:    Font shape `LGR/artemisia/m/it' will be
+(Font)              scaled to size 7.43994pt on input line 209.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/it' will be
+(Font)              scaled to size 5.57996pt on input line 209.
+) (./Control/Nominal/main.tex [29] [30] [31]
+<Control/Nominal/fig_testeig.png, id=205, 1403.99532pt x 730.22812pt>
+File: Control/Nominal/fig_testeig.png Graphic file (type png)
+<use Control/Nominal/fig_testeig.png>
+Package pdftex.def Info: Control/Nominal/fig_testeig.png  used on input line 288.
+(pdftex.def)             Requested size: 467.42168pt x 243.10422pt.
+ [32]
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 4.64996pt on input line 296.
+<Control/Nominal/fig_roll.png, id=209, 1403.99532pt x 730.22812pt>
+File: Control/Nominal/fig_roll.png Graphic file (type png)
+<use Control/Nominal/fig_roll.png>
+Package pdftex.def Info: Control/Nominal/fig_roll.png  used on input line 331.
+(pdftex.def)             Requested size: 467.42168pt x 243.10422pt.
+LaTeX Font Info:    Font shape `T1/artemisia/m/it' will be
+(Font)              scaled to size 9.29993pt on input line 332.
+LaTeX Font Info:    Font shape `T1/artemisia/m/it' will be
+(Font)              scaled to size 6.50995pt on input line 332.
+
+Underfull \vbox (badness 7486) has occurred while \output is active []
+
+ [33 <./Control/Nominal/fig_testeig.png (PNG copy)>]
+<Control/Nominal/fig_pitch.png, id=214, 1403.99532pt x 730.22812pt>
+File: Control/Nominal/fig_pitch.png Graphic file (type png)
+<use Control/Nominal/fig_pitch.png>
+Package pdftex.def Info: Control/Nominal/fig_pitch.png  used on input line 341.
+(pdftex.def)             Requested size: 467.42168pt x 243.10422pt.
+<Control/Nominal/fig_sigmoid_1.png, id=215, 1358.82657pt x 648.92438pt>
+File: Control/Nominal/fig_sigmoid_1.png Graphic file (type png)
+<use Control/Nominal/fig_sigmoid_1.png>
+Package pdftex.def Info: Control/Nominal/fig_sigmoid_1.png  used on input line 360.
+(pdftex.def)             Requested size: 467.42168pt x 223.21573pt.
+ [34 <./Control/Nominal/fig_roll.png (PNG copy)> <./Control/Nominal/fig_pitch.png (PNG copy)>]
+<Control/Nominal/fig_sigmoid_2.png, id=219, 1222.5675pt x 730.22812pt>
+File: Control/Nominal/fig_sigmoid_2.png Graphic file (type png)
+<use Control/Nominal/fig_sigmoid_2.png>
+Package pdftex.def Info: Control/Nominal/fig_sigmoid_2.png  used on input line 365.
+(pdftex.def)             Requested size: 467.42168pt x 279.18321pt.
+) (./Control/Disturbances/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./Control/Nominal/fig_sigmoid_1.png> <./Control/Nominal/fig_sigmoid_2.png>]
+<Control/Nominal/fig_testeig_p.png, id=223, 1403.99532pt x 730.22812pt>
+File: Control/Nominal/fig_testeig_p.png Graphic file (type png)
+<use Control/Nominal/fig_testeig_p.png>
+Package pdftex.def Info: Control/Nominal/fig_testeig_p.png  used on input line 29.
+(pdftex.def)             Requested size: 467.42168pt x 243.10422pt.
+<Control/Nominal/fig_disturbance_2.png, id=224, 1207.8392pt x 661.87871pt>
+File: Control/Nominal/fig_disturbance_2.png Graphic file (type png)
+<use Control/Nominal/fig_disturbance_2.png>
+Package pdftex.def Info: Control/Nominal/fig_disturbance_2.png  used on input line 53.
+(pdftex.def)             Requested size: 467.42168pt x 256.14206pt.
+ [36 <./Control/Nominal/fig_testeig_p.png (PNG copy)>]) (./Control/D_cancellation/main.tex [37 <./Control/Nominal/fig_disturbance_2.png>] [38] [39] [40] [41]
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 413.
+LaTeX Font Info:    Font shape `T1/artemisia/m/it' will be
+(Font)              scaled to size 11.15991pt on input line 413.
+LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 413.
+ [42])) (./Results/main.tex [43]
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  5.
+<Results/step_resp_gamma.png, id=253, 1363.34344pt x 718.18312pt>
+File: Results/step_resp_gamma.png Graphic file (type png)
+<use Results/step_resp_gamma.png>
+Package pdftex.def Info: Results/step_resp_gamma.png  used on input line 21.
+(pdftex.def)             Requested size: 467.42168pt x 246.22829pt.
+<Results/phi_theta.png, id=254, 1373.84555pt x 687.63832pt>
+File: Results/phi_theta.png Graphic file (type png)
+<use Results/phi_theta.png>
+Package pdftex.def Info: Results/phi_theta.png  used on input line 35.
+(pdftex.def)             Requested size: 467.42168pt x 233.95132pt.
+[44
+
+ <./Results/step_resp_gamma.png (PNG copy)>]
+<Results/sigmoid_wo_1.png, id=258, 1382.16376pt x 624.08156pt>
+File: Results/sigmoid_wo_1.png Graphic file (type png)
+<use Results/sigmoid_wo_1.png>
+Package pdftex.def Info: Results/sigmoid_wo_1.png  used on input line 57.
+(pdftex.def)             Requested size: 397.31126pt x 179.38872pt.
+<Results/sigmoid_wo_2.png, id=259, 1403.99532pt x 730.22812pt>
+File: Results/sigmoid_wo_2.png Graphic file (type png)
+<use Results/sigmoid_wo_2.png>
+Package pdftex.def Info: Results/sigmoid_wo_2.png  used on input line 63.
+(pdftex.def)             Requested size: 397.31126pt x 206.64638pt.
+<Results/sigmoid_w_1.png, id=260, 1384.42218pt x 628.59843pt>
+File: Results/sigmoid_w_1.png Graphic file (type png)
+<use Results/sigmoid_w_1.png>
+Package pdftex.def Info: Results/sigmoid_w_1.png  used on input line 70.
+(pdftex.def)             Requested size: 397.31126pt x 180.39932pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45 <./Results/phi_theta.png (PNG copy)> <./Results/sigmoid_wo_1.png>]
+<Results/sigmoid_w_2.png, id=266, 1403.99532pt x 730.22812pt>
+File: Results/sigmoid_w_2.png Graphic file (type png)
+<use Results/sigmoid_w_2.png>
+Package pdftex.def Info: Results/sigmoid_w_2.png  used on input line 76.
+(pdftex.def)             Requested size: 397.31126pt x 206.64638pt.
+ [46 <./Results/sigmoid_wo_2.png (PNG copy)> <./Results/sigmoid_w_1.png> <./Results/sigmoid_w_2.png (PNG copy)>]
+<Results/dist_gamma_80.png, id=271, 1373.84555pt x 687.63832pt>
+File: Results/dist_gamma_80.png Graphic file (type png)
+<use Results/dist_gamma_80.png>
+Package pdftex.def Info: Results/dist_gamma_80.png  used on input line 98.
+(pdftex.def)             Requested size: 397.31126pt x 198.8644pt.
+<Results/dist_gamma_30.png, id=272, 1373.84555pt x 687.63832pt>
+File: Results/dist_gamma_30.png Graphic file (type png)
+<use Results/dist_gamma_30.png>
+Package pdftex.def Info: Results/dist_gamma_30.png  used on input line 106.
+(pdftex.def)             Requested size: 397.31126pt x 198.8644pt.
+ [47 <./Results/dist_gamma_80.png (PNG copy)> <./Results/dist_gamma_30.png (PNG copy)>]) (./Conclusion/main.tex [48]
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  6.
+LaTeX Font Info:    Font shape `OT1/artemisia/b/n' will be
+(Font)              scaled to size 23.13821pt on input line 1.
+) [49
+
+]
+LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
+(Font)              scaled to size 23.13821pt on input line 34.
+LaTeX Font Info:    Font shape `T1/artemisia/m/sc' will be
+(Font)              scaled to size 10.18341pt on input line 34.
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 34.
+
+[50
+
+] (./thesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 43802 strings out of 481239
+ 1024855 string characters out of 5920377
+ 1770520 words of memory out of 5000000
+ 58156 multiletter control sequences out of 15000+600000
+ 620080 words of font info for 231 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,22n,100p,824b,2911s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaecsc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiatabnums.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisia.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiael.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaelsc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (60 pages, 10256076 bytes).
+PDF statistics:
+ 364 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+

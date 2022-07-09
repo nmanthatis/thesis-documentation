@@ -1,0 +1,266 @@
+Ο στόχος του κεφαλαίου είναι ο σχεδιασμός ενός συστήματος ελέγχου για την 
+αυτόνομη αιώρηση και παρακολούθηση τροχιάς αναφοράς για το τρικόπτερο. Στο πρώτο
+στάδιο γίνεται σύνθεση ενός μη-γραμμικού ελεγκτή, ο οποίος χρησιμοποιεί 
+δυναμική γραμμικοποίηση με ανάδραση και επιβάλλει τα επιθυμητά δυναμικά 
+απόκλισης των μεταβλητών κατάστασης από τις τροχιές αναφοράς 
+(\tl{error dynamics}). Έπειτα, λαμβάνοντας υπόψιν δυναμικές και μόνιμες 
+διαταραχές του συστήματος, γίνεται χρήση του $\gamma$-υποβέλτιστου ελέγχου.
+
+\section{Μαθηματικό Υπόβαθρο}
+
+\begin{nameddefn}{Συμβολισμοί}Έστω $A_1, \ldots, A_k$ σύνολα. Συμβολίζουμε
+$\prod _1^{k} A_i$ το γινόμενο τους $A_1 \times \ldots \times A_k$. Δηλαδή,   
+$\prod_1^k A_i$ είναι το σύνολο των συναρτήσεων $x:\{1,\ldots,k\} \rightarrow
+\cup_1^k A_i$ με $ x(i) \in A_i$ για κάθε $i \in \{1,\ldots,k\}$.
+
+Αν $x \in \prod _1^k A_i$, συχνά συμβολίζουμε την τιμή της $x$ στο $i$ με $x_i$ 
+και τη $x$ με $\left(x_1, \ldots, x_k\right)$ ή $\left(x_i\right)_1^k$. Όταν δεν 
+υπάρχει κίνδυνος σύγχυσης, συχνά παραλείπουμε τους δείκτες, δηλαδή γράφουμε 
+$\prod A_i$ αντί $\prod_i^k A_i$ και $\left(x_i\right)$ αντί $\left(x_i\right)_1
+^k$. Αν $A_i = A$ για κάθε $i$, τότε συμβολίζουμε το $\prod A_i$ και ως $A^k$.
+\end{nameddefn}
+\begin{nameddefn}{Ορισμοί}
+    Έστω $X,Y$ σύνολα, $f:X \rightarrow Y$ απεικόνιση και τα σύνολα $A \subset 
+    X,\, B\subset Y$. Τότε το σύνολο $f(A)=\left\{f(x)\,|\,x \in A \right\}$ 
+    ονομάζεται η \textbf{εικόνα} του $A$ και συμβολίζεται με $im\,A$. Επίσης 
+    το σύνολο $f^{-1}(B)=\left\{x\,|\,f(x) \in B\right\}$ ονομάζεται η 
+    \textbf{αντίστροφη εικόνα} του $B$.
+    
+    Η $f$ λέγεται \textbf{επίρριψη} αν $f(X) = Y$. Δηλαδή, αν για κάθε $y\in Y$,  
+    υπάρχει $x \in X$ ώστε $f(x) = y$. Η $f$ λέγεται \textbf{ένριψη} αν για κάθε
+    $x_1, x_2 \in X$, με $x_1 \ne x_2$, τότε $f(x_1) \ne f(x_2)$. Η $f$ 
+    λέγεται \textbf{αμφίρριψη}, αν είναι ένριψη και επίρριψη. Δηλαδή, αν για 
+    κάθε $y \in Y$ υπάρχει ένα και μόνο ένα $x \in X$ ώστε $f(x) = y$.
+\end{nameddefn}
+\begin{nameddefn}{Ορισμοί}
+    Έστω οι γραμμικοί χώροι $V$ και $W$ επί του $\realf$ και $A:V\rightarrow W$
+    μια γραμμική απεικόνιση, τότε το σύνολο $A^{-1}(\set 0)$ ονομάζεται 
+    \textbf{πυρήνας} της $A$ και συμβολίζεται με $\ker A$.
+    \label{kern}
+\end{nameddefn}
+\begin{nameddefn*}{Παρατηρήσεις} Στην περίπτωση που $\ker A =0$, αποδεικνύεται
+    εύκολα ότι η $A$ είναι ενριπτική. \cite{Jnich1994}    
+\end{nameddefn*}
+\begin{nameddefn}{Ορισμοί}
+    Υποθέτουμε ότι $S \subset \realf$, $E\subset S$ και ότι το $E$ είναι άνω 
+    φραγμένο. Επίσης, υποθέτουμε ότι υπάρχει $\alpha \in S$ με τις ακόλουθες 
+    ιδιότητες:
+    \begin{enumerate}
+        \item Το $\alpha$ είναι άνω φράγμα του $E$.
+        \item Έαν το $\gamma$ είναι στοιχείο στο $S$, με $\gamma < \alpha$, τότε 
+        το $\gamma$ δεν είναι άνω φράγμα του $E$. 
+    \end{enumerate}
+    Τότε, και μόνον τότε, το $\alpha$ ονομάζεται το \textbf{ελάχιστο άνω φράγμα}
+    του $E$ ή αλλιώς το $\textbf{\tl{supremum}}$  του $E$ και γράφουμε 
+    \begin{equation*}
+        \alpha = \sup E.
+    \end{equation*} 
+    Το \textbf{μέγιστο κάτω φράγμα} ή αλλιώς το $\textbf{\tl{infinum}}$ ενός 
+    κάτω φραγμένου συνόλου $E$ ορίζεται με ανάλογο τρόπο και συμβολίζεται ως
+    \begin{equation*}
+        \alpha = \inf E.
+    \end{equation*}
+    % να δηλώνει ότι το $\alpha$ είναι κάτω φράγμα του E και δεν υπάρχει κάτω 
+    % φράγμα $\beta$ του $E$ με $\beta > \alpha$.
+\end{nameddefn}
+\begin{nameddefn}{Ορισμοί}Έστω $X, Y$ γραμμικοί χώροι. Για κάθε $j\in \{1, 
+    \ldots, k\}$, η επιρριπτική απεικόνιση $\pi_{j}:\prod X_{i} \rightarrow 
+    X_{j}$ με $\pi_{j}\left(\left(x_{i}\right)\right) = x_{j}$ ονομάζεται η 
+    \textbf{προβολή} του $\prod X_{i}$ επί του παράγοντα $X_{j}$.
+
+    Για κάθε $j\in \{1, \ldots, k\}$, η ενριπτική απεικόνιση $\theta_{j}:X_{j} 
+    \rightarrow \prod X_{i}$ με $\theta_{j}(y) = (x_{i})$, όπου $x_{i} = 0$ 
+    όταν $i\neq j$ και $x_{j} = y$, ονομάζεται \textbf{συνήθης ένθεση} του 
+    παράγοντα $X_{j}$ εντός του $\prod X_{i}$.
+
+    Υποθέτουμε επιπλέον ότι οι $X, Y$ είναι χώροι με νόρμα και $\Lambda:X
+    \rightarrow Y$ γραμμική απεικόνιση. Αν η $\Lambda$ είναι ομοιομορφισμός, 
+    δηλαδή είναι αμφιρριπτική, συνεχής και η αντίστροφη απεικόνιση 
+    $\Lambda^{-1}:Y \rightarrow X$, είναι συνεχής, τότε λέμε ότι η $\Lambda$ 
+    είναι \textbf{ισομορφισμός}. 
+    
+    Στην ειδική περίπτωση που $Y = X$, λέμε ότι η $\Lambda$ είναι 
+    \textbf{αυτομορφισμός}.
+    
+    Στην περίπτωση που υπάρχει ισομορφισμός $\Lambda:X\rightarrow Y$, λέμε ότι 
+    οι χώροι $X,Y$ είναι \textbf{ισομορφικοί} ή ότι ο $X$ είναι 
+    \textbf{ισομορφικός} με 
+    τον $Y$.
+    
+    Αν οι χώροι $X,Y$ είναι ισομορφικοί τότε συμβολίζουμε με $GL\left(X, 
+    Y\right)$ το σύνολο όλων των ισομορφισμών του $X$ επί του $Y$.
+\end{nameddefn}
+
+\begin{nameddefn}{Ορισμοί} Έστω $V$ πραγματικός διανυσματικός χώρος. Ένα 
+    εσωτερικό γινόμενο στο $V$ είναι μία απεικόνιση $\langle\cdot,\cdot\rangle:
+    V\times V \rightarrow \mathbb{R}$ με τις ακόλουθες ιδιότητες:
+    \begin{itemize}
+        \item Διγραμμικότητα: για κάθε $x, y, z \in V$ και $a \in \realf$
+            \begin{gather*}
+                \langle x, y+z \rangle = \langle x, y \rangle + \langle x, z 
+                \rangle \quad \text{και} \quad \langle x, ay \rangle = 
+                a\langle x, y \rangle.   
+            \end{gather*}
+        \item Συμμετρία: $\langle x, y \rangle = \langle y, x \rangle$ για κάθε 
+            $x, y \in V$.
+        \item Θετικότητα: $\langle x, x \rangle > 0$ για κάθε $x \neq 0$.
+    \end{itemize}
+
+    Ως \textbf{ευκλείδειος χώρος} ορίζεται το ζεύγος $\left(V, 
+    \langle\cdot,\cdot\rangle\right)$. Η \textbf{νόρμα που επάγεται στο $V$ από
+    το εσωτερικό του γινόμενο} είναι η απεικόνιση $\|\cdot\|:V\rightarrow 
+    [0, \infty)$ με $\|x\| = \sqrt{\langle x, x \rangle}$.
+\end{nameddefn}
+\begin{nameddefn}{Λήμμα}
+    Έστω $V$ ευκλείδειος χώρος, $\set{v_1, \ldots, v_r}$ ορθοκανονική βάση του 
+    $V$ και \[U= \vspan \set{v_1, \ldots, v_r}\] ο υποχωρος που παράγεται από 
+    την $\set{v_i}$. Κάθε $v \in V$ μπορεί να εκφρασθεί μοναδικά ως άθροισμα 
+    $v = u + w$ με $u \in U$ και $w$ ανήκει στο ορθογώνιο συμπλήρωμα $U^{\perp}$
+    της $U$. \cite{Jnich1994}
+    \label{lemma_sum}
+\end{nameddefn}
+\begin{nameddefn}{Ορισμός}
+    Μια διαφορίσιμη απεικόνιση $f$ ενός ανοιχτού συνόλου $E \subset \euclr n$ 
+    στον $\euclr m$ ονομάζεται \textbf{συνεχώς διαφορίσιμη ή $\class{1}$-
+    απεικόνιση} αν η $f^{\prime}$ είναι συνεχής απεικόνιση του $E$ στο 
+    $\mathcal{L}(\euclr n, \euclr m)$.
+
+    Αν $f: E \to \euclr m$ είναι $\class{1}$-απεικόνιση τότε γράφουμε $f \in 
+    \class{1}(E, \euclr m)$.
+\end{nameddefn}
+\begin{nameddefn}{Ορισμοί}
+    Έστω $X_1,\ldots,X_k,Y$ γραμμικοί χώροι. Μια απεικόνιση $ \Lambda: 
+    \prod_i^k X_i \rightarrow Y$ ονομάζεται \textbf{πολυγραμμική} ή \textbf
+    {k-γραμμική} αν είναι γραμμική ως προς κάθε μεταβλητή ξεχωριστά, δηλαδή για 
+    κάθε $j \in \{1, \ldots, k\}$ και $x_i \in X_i $ για $i \neq j$, η 
+    απεικόνιση
+    \begin{equation*}
+        X_j \ni x \mapsto \Lambda\left(x_1, \ldots , x_{j-1}, x, x_{j+1}, 
+        \dots, x_k\right) \in Y
+    \end{equation*}
+    είναι γραμμική ως προς $x$. Αν $k = 2$ ή $k = 3$, η $\Lambda$ ονομάζεται 
+    \textbf{διγραμμική} και τριγραμμική αντίστοιχα. Επίσης το σύνολο το 
+    πολυγραμμικών απεικονίσεων από το $\prod X_i$ στο $Y$ συμβολίζεται με 
+    $\mathcal{L}\left(X_1,\ldots,X_k; Y\right)$. Αν $X = X_i$ για κάθε $i \in 
+    \{1,\ldots,k\}$ τότε γράφουμε $\mathcal{L}_k(X, Y)$ αντί του $\mathcal{L}
+    \left(X_1,\ldots,X_k;Y\right)$. Το σύνολο των γραμμικών απεικονίσεων του $X$
+    στο $Y$ είναι το $\mathcal{L}_1(X, Y)$ και συχνά συμβολίζεται απλώς ως 
+    $\mathcal{L}(X, Y)$. Αν $Y = X$ τότε γράφουμε $\mathcal{L}_k(X)$ αντί του 
+    $\mathcal{L}_k(X, Y)$ και $\mathcal{L}(X)$ αντί του $\mathcal{L}(X, Y)$. 
+    Για κάθε $\Lambda \in \mathcal{L}\left(X_1, \ldots, X_k; Y\right)$, θέτουμε
+    \begin{equation*}
+        \|\Lambda\| = \inf \left\{c > 0 \,\middle|\, \|\Lambda\left((x_i)
+        \right)\| \leq c\|x_1\|\ldots\|x_k\| \quad \text{για κάθε}\quad (x_i) 
+        \in \prod X_i \right\}.
+    \end{equation*}
+\end{nameddefn}
+\begin{namedthrm}{Θεώρημα} Έστω $V$ διανυσματικός χώρος πεπερασμένης διάστασης 
+    και $\Lambda : V \rightarrow W$ γραμμική απεικόνιση. Τότε η εικόνα της 
+    $\Lambda$ είναι διανυσματικός υποχώρος πεπερασμένης διάστασης και ισχύει 
+    \begin{equation*}
+        \dim{V} = \dim{\ker \Lambda} + \dim{im\, \Lambda}.
+    \end{equation*}
+    Αναλυτικότερα στο \cite{lax_07:linear}.
+    \label{nlt_trm}
+\end{namedthrm}
+\begin{nameddefn*}{Παρατηρήσεις}
+    Από το παραπάνω θεώρημα προκύπτει πως αν μια γραμμική απεικόνιση είναι 
+    ενριπτική τότε είναι και επιρριπτική, άρα αμφίρριψη.
+\end{nameddefn*}
+% \begin{nameddefn*}{Παρατηρήσεις}
+%     Από το παραπάνω θεώρημα εξάγεται ότι μία γραμμική απεικόνιση $\Lambda$ 
+%     είναι ενριπτική αν και μόνο αν $\ker\Lambda = 0$. Πράγματι, αν $\Lambda(x) 
+%     = \Lambda(y)$, τότε $\Lambda(x) - \Lambda(y) = 0$ ή $\Lambda$$
+%     (x-y) = 0$ που σημαίνει ότι $x-y \in \ker{\Lambda}$. Άν $\dim{V} = \dim{im\,
+%      \Lambda}$ η γραμμική απεικόνιση $\Lambda$ είναι εκτός απο ενριπτική και 
+%      επιρριπτική, άρα αμφιρριπτική.    
+% \end{nameddefn*}
+\begin{namedthrm}{Πρόταση}
+    Για μια γραμμική απεικόνιση $T:V\rightarrow W$ ισχύει $\dim im T^{*} = 
+    \dim(\ker T)^{\bot}$. 
+    
+    \noindentΒλέπε απόδειξη \cite{strang2006linear}.
+    \label{dim}
+\end{namedthrm}
+%     \begin{nameddefn*}{Απόδειξη} Έστω $v\in im\,T^*$ και $w\in 
+%     \ker T$. Η εικόνα του $T^*$ είναι της μορφής $T^*v$ για $v \in V$, έτσι 
+%     αρκεί να δειχθεί ότι $\langle T^*v, w \rangle = 0$. Πράγματι ισχύει, 
+%     $\langle T^*v, w\rangle = T^*\langle v, w \rangle = \langle v, Tw \rangle 
+%     =\langle v, 0 \rangle = 0$.
+% \end{nameddefn*}
+
+
+% \begin{proof}
+%     Βλέπε \cite{strang2006linear}.
+% \end{proof}
+
+\begin{namedthrm}{Θεώρημα} 
+    Έστω $X_1,\ldots,X_k$ και $Y$ χώροι με νόρμα, $B_i = \{x \in X_i | \, 
+    \norm{x} \leq 1\}$ η μοναδιαία κλειστή μπάλα στο $X_i$ και $\Lambda: \prod 
+    X_i \rightarrow Y$ μια πολυγραμμική απεικόνιση. Τότε τα ακόλουθα είναι 
+    ισοδύναμα:
+    \begin{enumerate}
+        \item Η $\Lambda$ είναι συνεχής.
+        \item Η $\Lambda$ είναι συνεχής στο $0 \in \prod Xi$.
+        \item Ο περιορισμός της $\Lambda$ στο $\prod B_i$ είναι φραγμένη 
+        συνάρτηση.
+        \item Υπάρχει μια σταθερά $c>0$ τέτοια ώστε 
+        \begin{equation*}
+            \|\Lambda(x_i)\| \leq c\|x_1\|\ldots\|x_k\| \text{ για κάθε } 
+            (x_i) \in \prod X_i.
+        \end{equation*}
+    \end{enumerate}
+    Βλέπε απόδειξη \cite{cartan_71:diff_calculus}.
+\end{namedthrm}
+\begin{nameddefn*}{Παρατηρήσεις}
+    Είναι σαφές ότι το σύνολο $\mathcal L (X_1,X_2,\ldots,X_k;Y)$, με τις κατά 
+    σημείο πράξεις της πρόσθεσης και του βαθμωτού πολλαπλασιασμού είναι 
+    γραμμικός χώρος.
+
+    Αν $\Lambda \in \mathcal L(X_1,\ldots,X_k;Y)$, τότε $\norm{
+    \Lambda((x_i))} \le \norm \Lambda \norm{x_1} \ldots \norm{x_k}$ για $(x_i) \in
+    \prod X_i$: για κάθε $\epsilon > 0$, υπάρχει $c >0$ τέτοιο ώστε $c <\norm
+    \Lambda + \epsilon$ και $ \norm{\Lambda((x_i))} \le c \norm{x_1} \ldots 
+    \norm{x_k}$ για $(x_i) \in \prod X_i$. Επομένως $\norm{\Lambda ((x_i))}
+    \le \left(\norm{\Lambda} + \epsilon\right)\norm{x_1} \ldots \norm{x_k}$ για 
+    κάθε $x_i \in \prod X_i$ και $\epsilon >0$.
+
+    Αν $\Lambda \in \mathcal L(X_1,\ldots,X_k;Y)$, τότε
+    \[\norm{\Lambda} = \sup\left\{\norm{\Lambda((x_i))}\,|\,\norm{x_i} = 1\le 
+    i\le k\right\} =\sup\left\{\norm{\Lambda((x_i))}\,|\,\norm{x_i} \le 1 \le 
+    i\le k\right\}.\]
+
+Πράγματι, αν $a$ είναι το πρώτο \tl{supremum} στην παραπάνω σχέση και $b$ το 
+δεύτερο, τότε προφανώς $a\le b\le \norm{\Lambda}$. Επίσης για τυχόν $(x_i) \in
+\prod X_i$, αν $x_i \ne 0$ για κάθε $i \in \{1,\ldots,k\}$, τότε
+\[(\norm{x_1} \ldots \norm{x_k})^{-1}\norm{\Lambda((x_i))} = \norm{
+    \Lambda((x_i/\norm{x_i}))} \le a,\]
+άρα $\norm{\Lambda((x_i))} \le a\norm{x_1} \ldots \norm{x_k}.$ Επομένως 
+$\norm{\Lambda} \le a$.
+\end{nameddefn*}
+\begin{namedthrm}{Πρόταση}Έστω $X_1,\ldots,X_k$ και $Y$ χώροι με νόρμα και 
+    $\Lambda \in \mathcal{L}(X_1,\ldots,X_k; Y)$. Τότε η $\Lambda$ είναι λεία 
+    και ισχύει 
+    \begin{equation*}
+        \Lambda'\left((x_i)\right)\left((h_i)\right) = \Lambda(h_1, x_2,\ldots,
+         x_k) + \Lambda(x_1, h_2, x_3, \ldots, x_k) + \ldots + \Lambda(x_1,
+          \ldots, x_{k-1}, x_k) 
+    \end{equation*}
+    για κάθε $(x_i),(h_i) \in \prod X_i$.
+\end{namedthrm}
+\noindent\textit{Βλέπε απόδειξη} \textit{\cite{abraham_marsden_88:manifolds}, 
+\cite{cartan_71:diff_calculus}}.
+
+\begin{namedthrm}{Πρόταση}Έστω $ X, Y$ γραμμικοί χώροι ίδιας πεπερασμένης 
+    διάστασης. Τότε
+    \begin{enumerate}
+        \item Το $GL(X, Y)$ είναι ανοιχτό σύνολο του $\mathcal{L}(X,Y)$.
+        \item Η απεικόνιση $f:GL(X,Y) \rightarrow GL(X,Y)$ με $f\left(A\right)
+          = A^{-1}$ είναι λεία.
+        \item Ισχύει ότι $f'\left(A\right)\Lambda = -A^{-1} \circ \Lambda \circ
+        A^{-1}$ για $\Lambda \in \mathcal{L}(X, Y)$.
+    \end{enumerate}
+    Βλέπε απόδειξη \cite{abraham_marsden_88:manifolds}, 
+    \cite{cartan_71:diff_calculus}.
+    \label{ctl:sen3}
+\end{namedthrm}

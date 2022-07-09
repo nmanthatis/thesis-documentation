@@ -1,0 +1,617 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{abraham_marsden_88:manifolds}{book}{}
+      \name{author}{3}{}{%
+        {{hash=ee85bb5038fcaee524ed247a0c225794}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a109e64d7dd72d3d3700a1a0216efd4b}{%
+           family={Marsden},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=babec024e1f7b4300081311fad0775ad}{%
+           family={Ratiu},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4b54e1bf26913e25264c80102a4a9d5b}
+      \strng{fullhash}{4b54e1bf26913e25264c80102a4a9d5b}
+      \strng{bibnamehash}{4b54e1bf26913e25264c80102a4a9d5b}
+      \strng{authorbibnamehash}{4b54e1bf26913e25264c80102a4a9d5b}
+      \strng{authornamehash}{4b54e1bf26913e25264c80102a4a9d5b}
+      \strng{authorfullhash}{4b54e1bf26913e25264c80102a4a9d5b}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Applied Mathematical Sciences}
+      \field{title}{Manifolds, Tensor Analysis, and Applications}
+      \field{year}{1988}
+    \endentry
+    \entry{Amann2005}{book}{}
+      \name{author}{2}{}{%
+        {{hash=05b5e57b1f4739c8de596a91d4134ec5}{%
+           family={Amann},
+           familyi={A\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0672f87e227433edd60889b04c34b756}{%
+           family={Escher},
+           familyi={E\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Birkhäuser Basel}%
+      }
+      \strng{namehash}{a4b532165ab55bcb9a4bdf12c920482d}
+      \strng{fullhash}{a4b532165ab55bcb9a4bdf12c920482d}
+      \strng{bibnamehash}{a4b532165ab55bcb9a4bdf12c920482d}
+      \strng{authorbibnamehash}{a4b532165ab55bcb9a4bdf12c920482d}
+      \strng{authornamehash}{a4b532165ab55bcb9a4bdf12c920482d}
+      \strng{authorfullhash}{a4b532165ab55bcb9a4bdf12c920482d}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analysis I}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1007/b137107
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/b137107
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/b137107
+      \endverb
+    \endentry
+    \entry{Bose2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=57fcf23bbb727ed087a2c2eab8f8eed1}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={Tarit},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{57fcf23bbb727ed087a2c2eab8f8eed1}
+      \strng{fullhash}{57fcf23bbb727ed087a2c2eab8f8eed1}
+      \strng{bibnamehash}{57fcf23bbb727ed087a2c2eab8f8eed1}
+      \strng{authorbibnamehash}{57fcf23bbb727ed087a2c2eab8f8eed1}
+      \strng{authornamehash}{57fcf23bbb727ed087a2c2eab8f8eed1}
+      \strng{authorfullhash}{57fcf23bbb727ed087a2c2eab8f8eed1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Airbreathing Propulsion}
+      \field{year}{2012}
+    \endentry
+    \entry{APC_data}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0bd07976fd14e434c93d9307d5898886}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=88c33d866dd3d583fb5f47c2c96f8c81}{%
+           family={Selig},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{49d431875d91f94643fb88c6fd52cd45}
+      \strng{fullhash}{49d431875d91f94643fb88c6fd52cd45}
+      \strng{bibnamehash}{49d431875d91f94643fb88c6fd52cd45}
+      \strng{authorbibnamehash}{49d431875d91f94643fb88c6fd52cd45}
+      \strng{authornamehash}{49d431875d91f94643fb88c6fd52cd45}
+      \strng{authorfullhash}{49d431875d91f94643fb88c6fd52cd45}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Propeller Performance Data at Low Reynolds Numbers}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.2514/6.2011-1255
+      \endverb
+    \endentry
+    \entry{cartan_71:diff_calculus}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ba5d0438c6bf3a8f869a504646266cfe}{%
+           family={Cartan},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Hermann}%
+      }
+      \strng{namehash}{ba5d0438c6bf3a8f869a504646266cfe}
+      \strng{fullhash}{ba5d0438c6bf3a8f869a504646266cfe}
+      \strng{bibnamehash}{ba5d0438c6bf3a8f869a504646266cfe}
+      \strng{authorbibnamehash}{ba5d0438c6bf3a8f869a504646266cfe}
+      \strng{authornamehash}{ba5d0438c6bf3a8f869a504646266cfe}
+      \strng{authorfullhash}{ba5d0438c6bf3a8f869a504646266cfe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential calculus}
+      \field{year}{1971}
+    \endentry
+    \entry{4435028}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=6695b9a4bc98e345ee92f8b385908dbe}{%
+           family={{Dickeson}},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=36e8321eb931e340b4af72402a2365e2}{%
+           family={{Miles}},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e90ab942dd7107b36c1c718cbfa0a5b9}{%
+           family={{Cifdaloz}},
+           familyi={C\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0f71bc705e41b8b0e0a83f3a5c780c30}{%
+           family={{Wells}},
+           familyi={W\bibinitperiod},
+           given={V.\bibnamedelimi L.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8b0ad411638a9ab056c8c2ecf82ffdc9}{%
+           family={{Rodriguez}},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f4870b4ed44c9c87107b981648d9ff2}
+      \strng{fullhash}{5402b166003321d42f6c981766039860}
+      \strng{bibnamehash}{1f4870b4ed44c9c87107b981648d9ff2}
+      \strng{authorbibnamehash}{1f4870b4ed44c9c87107b981648d9ff2}
+      \strng{authornamehash}{1f4870b4ed44c9c87107b981648d9ff2}
+      \strng{authorfullhash}{5402b166003321d42f6c981766039860}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2007 46th IEEE Conference on Decision and Control}
+      \field{title}{Linear quadratic optimal trajectory-tracking control of a longitudinal thrust vectoring-enabled unmanned Tri-TiltRotor}
+      \field{year}{2007}
+      \field{pages}{2773\bibrangedash 2778}
+      \range{pages}{6}
+    \endentry
+    \entry{natsiavas}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a043616b71b240b6dfec58934dd5300c}{%
+           family={\foreignlanguage{greek}{Νατσίαβας,\bibnamedelimb Σ.}},
+           familyi={g\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {\foreignlanguage{greek}{Θεσσαλονίκη}}%
+      }
+      \list{publisher}{1}{%
+        {\foreignlanguage{greek}{Ζήτη}}%
+      }
+      \strng{namehash}{a043616b71b240b6dfec58934dd5300c}
+      \strng{fullhash}{a043616b71b240b6dfec58934dd5300c}
+      \strng{bibnamehash}{a043616b71b240b6dfec58934dd5300c}
+      \strng{authorbibnamehash}{a043616b71b240b6dfec58934dd5300c}
+      \strng{authornamehash}{a043616b71b240b6dfec58934dd5300c}
+      \strng{authorfullhash}{a043616b71b240b6dfec58934dd5300c}
+      \field{sortinit}{g}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789604312566}
+      \field{title}{\foreignlanguage{greek}{Εφαρμοσμένη δυναμική : θεωρία , εφαρμογές}}
+      \field{year}{1994}
+    \endentry
+    \entry{Jnich1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=67cd682ff85980dd2d7d0f718fafaf12}{%
+           family={Jänich},
+           familyi={J\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{67cd682ff85980dd2d7d0f718fafaf12}
+      \strng{fullhash}{67cd682ff85980dd2d7d0f718fafaf12}
+      \strng{bibnamehash}{67cd682ff85980dd2d7d0f718fafaf12}
+      \strng{authorbibnamehash}{67cd682ff85980dd2d7d0f718fafaf12}
+      \strng{authornamehash}{67cd682ff85980dd2d7d0f718fafaf12}
+      \strng{authorfullhash}{67cd682ff85980dd2d7d0f718fafaf12}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linear Algebra}
+      \field{year}{1994}
+    \endentry
+    \entry{KASTELAN201579}{}{}
+      \name{author}{3}{}{%
+        {{hash=3370ab0d3d87c527679be67440002f74}{%
+           family={Kastelan},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9f0ebe600165d303671c2adfcfd51627}{%
+           family={Konz},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=24ce4459029835664620be5e2c186b49}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b48f41f56162eed4febd5475d4cf5b58}
+      \strng{fullhash}{b48f41f56162eed4febd5475d4cf5b58}
+      \strng{bibnamehash}{b48f41f56162eed4febd5475d4cf5b58}
+      \strng{authorbibnamehash}{b48f41f56162eed4febd5475d4cf5b58}
+      \strng{authornamehash}{b48f41f56162eed4febd5475d4cf5b58}
+      \strng{authorfullhash}{b48f41f56162eed4febd5475d4cf5b58}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{1st IFAC Workshop on Advanced Control and Navigation for Autonomous Aerospace Vehicles ACNAAV’15}
+      \field{title}{Fully Actuated Tricopter with Pilot-Supporting Control. This work is supported in part by the German Research Foundation (DFG) in the framework of project “Regelung von Trikoptern beim gemeinsamen Transport von an Seilen aufgehäangten Lasten”.}
+      \field{year}{2015}
+      \keyw{UAV,attitude control,nonlinear control,vehicle dynamics,aerodynamics}
+    \endentry
+    \entry{Lang1997}{book}{}
+      \name{author}{1}{}{%
+        {{hash=88c92ddced8d93c4ed4df52ee477b0c6}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{88c92ddced8d93c4ed4df52ee477b0c6}
+      \strng{fullhash}{88c92ddced8d93c4ed4df52ee477b0c6}
+      \strng{bibnamehash}{88c92ddced8d93c4ed4df52ee477b0c6}
+      \strng{authorbibnamehash}{88c92ddced8d93c4ed4df52ee477b0c6}
+      \strng{authornamehash}{88c92ddced8d93c4ed4df52ee477b0c6}
+      \strng{authorfullhash}{88c92ddced8d93c4ed4df52ee477b0c6}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Undergraduate Analysis}
+      \field{year}{1997}
+      \verb{doi}
+      \verb 10.1007/978-1-4757-2698-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4757-2698-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4757-2698-5
+      \endverb
+    \endentry
+    \entry{lax_07:linear}{book}{}
+      \name{author}{1}{}{%
+        {{hash=497a0974af7bbb03e86e0889da35e768}{%
+           family={Lax},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{497a0974af7bbb03e86e0889da35e768}
+      \strng{fullhash}{497a0974af7bbb03e86e0889da35e768}
+      \strng{bibnamehash}{497a0974af7bbb03e86e0889da35e768}
+      \strng{authorbibnamehash}{497a0974af7bbb03e86e0889da35e768}
+      \strng{authornamehash}{497a0974af7bbb03e86e0889da35e768}
+      \strng{authorfullhash}{497a0974af7bbb03e86e0889da35e768}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{series}{Pure and Applied Mathematics: A Wiley Series of Texts, Monographs, and Tracts}
+      \field{title}{Linear Algebra and Its Applications}
+      \field{year}{2007}
+    \endentry
+    \entry{6699805}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=92029e5aaa2fc5250f03844f5af4ec88}{%
+           family={{Papachristos}},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fd87e2787147a655f48540aa396996c0}{%
+           family={{Alexis}},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=96435770c36be6196f9b1fd248c65403}{%
+           family={{Tzes}},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{01b7c9540a475616dad4b58085ba719c}
+      \strng{fullhash}{01b7c9540a475616dad4b58085ba719c}
+      \strng{bibnamehash}{01b7c9540a475616dad4b58085ba719c}
+      \strng{authorbibnamehash}{01b7c9540a475616dad4b58085ba719c}
+      \strng{authornamehash}{01b7c9540a475616dad4b58085ba719c}
+      \strng{authorfullhash}{01b7c9540a475616dad4b58085ba719c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IECON 2013 - 39th Annual Conference of the IEEE Industrial Electronics Society}
+      \field{title}{Robust LPV H-inf gain-scheduled hover-to-cruise conversion for a tilt-wing rotorcraft in the presence of CG variations}
+      \field{year}{2013}
+      \field{pages}{4174\bibrangedash 4179}
+      \range{pages}{6}
+    \endentry
+    \entry{6630591}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e0c6d27647c682234f4ee55450a82dce}{%
+           family={{Ryll}},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=211b4d761e1d84d765374a792371725e}{%
+           family={{Bülthoff}},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a7aef27e76ec02857161732dda556c7f}{%
+           family={{Giordano}},
+           familyi={G\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b124bee4242e45d2d7bad5e786abb99a}
+      \strng{fullhash}{b124bee4242e45d2d7bad5e786abb99a}
+      \strng{bibnamehash}{b124bee4242e45d2d7bad5e786abb99a}
+      \strng{authorbibnamehash}{b124bee4242e45d2d7bad5e786abb99a}
+      \strng{authornamehash}{b124bee4242e45d2d7bad5e786abb99a}
+      \strng{authorfullhash}{b124bee4242e45d2d7bad5e786abb99a}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE International Conference on Robotics and Automation}
+      \field{title}{First flight tests for a quadrotor UAV with tilting propellers}
+      \field{year}{2013}
+    \endentry
+    \entry{Scherer}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=d6eaae33c7e7f1a8204867e42296ca01}{%
+           family={Scherer},
+           familyi={S\bibinitperiod},
+           given={C.W.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1ec6bdd250bd88f5355d39a988936133}{%
+           family={Weiland},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6b4c0c6ef97978a5b72b933265776fd8}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={W.S.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{f7e622c8fc9e5377375d96cdac1eafb6}
+      \strng{fullhash}{f7e622c8fc9e5377375d96cdac1eafb6}
+      \strng{bibnamehash}{f7e622c8fc9e5377375d96cdac1eafb6}
+      \strng{authorbibnamehash}{f7e622c8fc9e5377375d96cdac1eafb6}
+      \strng{authornamehash}{f7e622c8fc9e5377375d96cdac1eafb6}
+      \strng{authorfullhash}{f7e622c8fc9e5377375d96cdac1eafb6}
+      \strng{editorbibnamehash}{6b4c0c6ef97978a5b72b933265776fd8}
+      \strng{editornamehash}{6b4c0c6ef97978a5b72b933265776fd8}
+      \strng{editorfullhash}{6b4c0c6ef97978a5b72b933265776fd8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Control Systems Handbook, Second Edition: Control System Advanced Methods}
+      \field{isbn}{978-1420073645}
+      \field{title}{Linear matrix inequalities in control}
+      \field{year}{2011}
+    \endentry
+    \entry{Sontag1998}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7feb6b8c21c43545012178b1bdb5ac6d}{%
+           family={Sontag},
+           familyi={S\bibinitperiod},
+           given={Eduardo\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{7feb6b8c21c43545012178b1bdb5ac6d}
+      \strng{fullhash}{7feb6b8c21c43545012178b1bdb5ac6d}
+      \strng{bibnamehash}{7feb6b8c21c43545012178b1bdb5ac6d}
+      \strng{authorbibnamehash}{7feb6b8c21c43545012178b1bdb5ac6d}
+      \strng{authornamehash}{7feb6b8c21c43545012178b1bdb5ac6d}
+      \strng{authorfullhash}{7feb6b8c21c43545012178b1bdb5ac6d}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical Control Theory}
+      \field{year}{1998}
+    \endentry
+    \entry{strang2006linear}{book}{}
+      \name{author}{1}{}{%
+        {{hash=255ea163938dc18cc15b38571534f350}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Thomson, Brooks/Cole}%
+      }
+      \strng{namehash}{255ea163938dc18cc15b38571534f350}
+      \strng{fullhash}{255ea163938dc18cc15b38571534f350}
+      \strng{bibnamehash}{255ea163938dc18cc15b38571534f350}
+      \strng{authorbibnamehash}{255ea163938dc18cc15b38571534f350}
+      \strng{authornamehash}{255ea163938dc18cc15b38571534f350}
+      \strng{authorfullhash}{255ea163938dc18cc15b38571534f350}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linear Algebra and Its Applications}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://books.google.gr/books?id=8QVdcRJyL2oC
+      \endverb
+      \verb{url}
+      \verb https://books.google.gr/books?id=8QVdcRJyL2oC
+      \endverb
+    \endentry
+    \entry{6896766}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=3768cb3691d9f8be784a4b189ba55772}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=92260edf3b6211aefedc2e8e883915fb}{%
+           family={{Liu}},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2103a088c0216ee336ca8b820fbefc02}{%
+           family={{Zhao}},
+           familyi={Z\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=645428f36cce14ff29a8b4288685851e}{%
+           family={{Chen}},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bb20a6cfaac5526da447a2c6203ab949}{%
+           family={{Phang}},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6db379666a60cdc954d4aeefb048ebc5}{%
+           family={{Lai}},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=904aab7e7b90de42a52d86afc08128aa}{%
+           family={{Lee}},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e28beb4a7e1814b0a1804a4377f5600c}{%
+           family={{Cai}},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{46ec579116740155561f91750d77fe4a}
+      \strng{fullhash}{5769fab6735177c9b26013c360999e0d}
+      \strng{bibnamehash}{46ec579116740155561f91750d77fe4a}
+      \strng{authorbibnamehash}{46ec579116740155561f91750d77fe4a}
+      \strng{authornamehash}{46ec579116740155561f91750d77fe4a}
+      \strng{authorfullhash}{5769fab6735177c9b26013c360999e0d}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 33rd Chinese Control Conference}
+      \field{title}{Guidance, navigation and control of an unmanned helicopter for automatic cargo transportation}
+      \field{year}{2014}
+      \field{pages}{1013\bibrangedash 1020}
+      \range{pages}{8}
+    \endentry
+    \entry{automat}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=3d3bf8f4eb70d953a9c365ee82764e26}{%
+           family={Źrebiec},
+           familyi={Ź\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d3bf8f4eb70d953a9c365ee82764e26}
+      \strng{fullhash}{3d3bf8f4eb70d953a9c365ee82764e26}
+      \strng{bibnamehash}{3d3bf8f4eb70d953a9c365ee82764e26}
+      \strng{authorbibnamehash}{3d3bf8f4eb70d953a9c365ee82764e26}
+      \strng{authornamehash}{3d3bf8f4eb70d953a9c365ee82764e26}
+      \strng{authorfullhash}{3d3bf8f4eb70d953a9c365ee82764e26}
+      \field{sortinit}{Ź}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automatyka/Automatics}
+      \field{month}{01}
+      \field{title}{Modelling of unmanned aerial vehicle – tricopter: Modelowanie bezzałogowego statku latającego typu tricopter}
+      \field{volume}{20}
+      \field{year}{2016}
+      \field{pages}{7}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
