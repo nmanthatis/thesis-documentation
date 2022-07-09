@@ -1,0 +1,10 @@
+#ignore all compilers products except pdf file
+thesis.aux
+thesis.bbl
+thesis.bcf
+thesis.blg
+thesis.log
+thesis.out
+thesis.run.xml
+thesis.synctex.gz
+thesis.toc
